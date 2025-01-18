@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ListSentence.modols;
+using ListSentence.services;
+using ListSentence.interfases;
 
 namespace ListSentence.controllers;
 [ApiController]
@@ -7,49 +9,42 @@ namespace ListSentence.controllers;
 
 public class SentenceControler : ControllerBase
 {
-    private static List<Sentence> List;
-
-    static SentenceControler()
+    private ISetenceService SetenceService;
+    public SentenceControler(ISetenceService setenceService)
     {
-        List = new List<Sentence>{
-            new Sentence{Id =1, Content="פחות משנה מה תבחרי יותר משנה שתבחרי"},
-            new Sentence{Id= 2, Content ="יש לי מלך!"},
-        };
+        this.SetenceService = setenceService;
     }
 
     [HttpGet]
     public IEnumerable<Sentence> get()
     {
-        return List;
+        return SetenceService.GetAll();
     }
 
     [HttpPost]
     public ActionResult insert(Sentence sN)
     {
-        int maxId = List.Max(sc => sc.Id);
-        sN.Id = maxId + 1;
-        List.Add(sN);
+        SetenceService.Add(sN);
         return CreatedAtAction(nameof(insert), new { id = sN.Id }, sN);
     }
 
     [HttpPut("{id}")]
     public ActionResult UpDate(int id, Sentence s)
     {
-        Sentence oldS = List.FirstOrDefault(s => s.Id == id);
+        Sentence oldS = SetenceService.Get(id);
         if (oldS == null)
             return BadRequest("not found id");
-        oldS.Content = s.Content;
-        oldS.Subject = s.Subject;
+        SetenceService.UpDate(s);
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     public ActionResult Delete(int id)
     {
-        Sentence oldS = List.FirstOrDefault(s => s.Id == id);
+        Sentence oldS = SetenceService.Get(id);
         if (oldS == null)
             return BadRequest("not found");
-        List.Remove(oldS);
+        SetenceService.Delete(id);
         return NoContent();
     }
 }

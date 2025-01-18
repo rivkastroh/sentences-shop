@@ -63,3 +63,4 @@ C:\Users\user2\Documents\תכנות\core\proj1\core-project\obj\Debug\net8.0\ref
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\obj\Debug\net8.0\proj1.pdb
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\obj\Debug\net8.0\proj1.genruntimeconfig.cache
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\obj\Debug\net8.0\ref\proj1.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\proj1.staticwebassets.runtime.json

@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "PznWT23vhWsncIuHwiPCIR7jPe+cVuQbCMs/XfTD00E=",
+  "Hash": "C5fSJH6bOo1YJ8o5j68ww0qlHY/EZ+xd+8249OGCA3U=",
   "Source": "proj1",
   "BasePath": "_content/proj1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "proj1\\wwwroot",
+      "Source": "proj1",
+      "ContentRoot": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\",
+      "BasePath": "_content/proj1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\css\\site.css",
+      "SourceId": "proj1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\",
+      "BasePath": "_content/proj1",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\index.html",
+      "SourceId": "proj1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\",
+      "BasePath": "_content/proj1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\js\\site.js",
+      "SourceId": "proj1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\",
+      "BasePath": "_content/proj1",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
 }
