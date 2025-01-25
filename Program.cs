@@ -1,6 +1,14 @@
 using ListSentence.interfases;
 using ListSentence.services;
 using Middelware;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+     .WriteTo.Console()
+    .WriteTo.DateFormatPath(
+        pathFormat: "Logs/log-{date:format=yyyy-MM-dd}.txt"
+    )
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +32,7 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.UseFirstMiddelware();
+app.UseLoger();
 
 app.UseHttpsRedirection();
 
