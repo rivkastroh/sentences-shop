@@ -3,14 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pizza CRUD</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <title>Sentence CRUD</title>
+    <link rel="stylesheet" href="./css/site.css" />
 </head>
 
 <body>
-    <h1>Sentence CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+    <button id="IManeger" style="display: none;">אני מנהל</button>
+    <button id="IUser" style="display: none;">אני משתמש</button>
+
+    <form id="loginUser" class="login">
+        <p>כניסה</P>
+        <input type="number" placeholder="תז" name="id"><br><br>
+        <input type="text" placeholder="סיסמה" name="password"><br><br>
+        <button type="submit">כניסה</button>
+    </form>
+    <form id="loginManeger" class="login">
+        <p>כניסה</P>
+        <input type="text" placeholder="סיסמה" name="password"><br><br>
+        <button type="submit">כניסה</button>
+    </form>
+
+    <!-- <h1>Sentence CRUD</h1> -->
+    <!-- <h3>Add</h3> -->
+    <!-- <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-name" placeholder="New pizza">
         <input type="submit" value="Add">
     </form>
@@ -36,12 +51,13 @@
             <th></th>
         </tr>
         <tbody id="pizzas"></tbody>
-    </table>
+    </table> -->
 
-    <script src="js/site.js" asp-append-version="true"></script>
+    <!-- <script src="./js/site.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
-    </script>
+    </script> -->
+    <script src="./js/site.js"></script>
 </body>
 
 </html>

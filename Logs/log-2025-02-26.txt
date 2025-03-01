@@ -1,0 +1,1222 @@
+2025-02-26 16:27:02.221 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:27:02.491 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:27:02.499 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:27:02.505 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:27:02.512 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:27:07.584 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 16:27:07.697 +02:00 [Information] requst:GET
+2025-02-26 16:27:07.708 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 16:27:07.711 +02:00 [Information] finish requst:GET
+2025-02-26 16:27:07.719 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 140.2145ms
+2025-02-26 16:27:07.728 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 16:27:15.747 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:27:15.893 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 146.7428ms
+2025-02-26 16:27:16.038 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:27:16.147 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:27:16.178 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 139.2786ms
+2025-02-26 16:29:29.007 +02:00 [Information] Application is shutting down...
+2025-02-26 16:29:46.984 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:29:47.155 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:29:47.161 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:29:47.163 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:29:47.165 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:30:09.272 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 16:30:09.388 +02:00 [Information] requst:GET
+2025-02-26 16:30:09.611 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-26 16:30:09.616 +02:00 [Information] finish requst:GET
+2025-02-26 16:30:09.620 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 16:30:09.624 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 353.5562ms
+2025-02-26 16:30:09.642 +02:00 [Information] requst:GET
+2025-02-26 16:30:09.677 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-26 16:30:09.691 +02:00 [Information] requst:GET
+2025-02-26 16:30:09.708 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-26 16:30:09.712 +02:00 [Information] finish requst:GET
+2025-02-26 16:30:09.714 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 36.8681ms
+2025-02-26 16:30:09.793 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 16:30:09.798 +02:00 [Information] finish requst:GET
+2025-02-26 16:30:09.802 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5896 "text/javascript" 183.493ms
+2025-02-26 16:30:16.784 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 23
+2025-02-26 16:30:16.792 +02:00 [Information] requst:POST
+2025-02-26 16:30:16.797 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 16:30:16.808 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 16:30:16.849 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 16:30:16.884 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 16:30:16.982 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 124.2135ms
+2025-02-26 16:30:16.985 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 16:30:16.987 +02:00 [Information] finish requst:POST
+2025-02-26 16:30:16.989 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 204.5297ms
+2025-02-26 16:30:19.157 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 16:30:19.160 +02:00 [Information] requst:GET
+2025-02-26 16:30:19.190 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 16:30:19.193 +02:00 [Information] finish requst:GET
+2025-02-26 16:30:19.194 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 37.3182ms
+2025-02-26 16:30:25.257 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:30:25.327 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 70.1422ms
+2025-02-26 16:30:25.452 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:30:25.551 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:30:25.586 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 134.1836ms
+2025-02-26 16:30:45.912 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:30:45.918 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:30:45.972 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 60.7659ms
+2025-02-26 16:36:57.247 +02:00 [Information] Application is shutting down...
+2025-02-26 16:37:19.390 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:37:19.576 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:37:19.582 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:37:19.584 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:37:19.586 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:37:48.469 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:37:48.769 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 301.9614ms
+2025-02-26 16:37:48.974 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:37:49.130 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:37:49.177 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 203.8411ms
+2025-02-26 16:39:44.751 +02:00 [Information] Application is shutting down...
+2025-02-26 16:39:57.513 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:39:57.719 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:39:57.725 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:39:57.726 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:39:57.729 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:40:06.166 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 16:40:06.269 +02:00 [Information] requst:GET
+2025-02-26 16:40:06.279 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 16:40:06.283 +02:00 [Information] finish requst:GET
+2025-02-26 16:40:06.290 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 127.4221ms
+2025-02-26 16:40:06.301 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 16:40:12.275 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:40:12.403 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 128.1677ms
+2025-02-26 16:40:12.545 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:40:12.688 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:40:12.715 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 170.2646ms
+2025-02-26 16:41:03.539 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:41:03.559 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:41:03.613 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 74.1427ms
+2025-02-26 16:43:38.102 +02:00 [Information] Application is shutting down...
+2025-02-26 16:43:51.618 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:43:51.855 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:43:51.873 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:43:51.877 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:43:51.882 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:43:54.630 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 16:43:54.750 +02:00 [Information] requst:GET
+2025-02-26 16:43:54.759 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 16:43:54.762 +02:00 [Information] finish requst:GET
+2025-02-26 16:43:54.767 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 141.5029ms
+2025-02-26 16:43:54.774 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 16:44:00.007 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:44:00.164 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 157.4589ms
+2025-02-26 16:44:00.307 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:44:00.441 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.UpDate (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:44:00.482 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 174.658ms
+2025-02-26 16:44:10.193 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:44:10.217 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.UpDate (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:44:10.252 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 59.3651ms
+2025-02-26 16:52:09.990 +02:00 [Information] Application is shutting down...
+2025-02-26 16:52:21.980 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:52:22.149 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:52:22.155 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:52:22.157 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:52:22.159 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:52:33.705 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:52:33.954 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 249.9566ms
+2025-02-26 16:52:34.386 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-26 16:52:34.545 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.UpDate (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:52:34.603 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 218.9501ms
+2025-02-26 16:52:45.421 +02:00 [Information] Application is shutting down...
+2025-02-26 16:54:14.687 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:54:14.860 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:54:14.869 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:54:14.872 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:54:14.875 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:54:18.386 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 16:54:18.499 +02:00 [Information] requst:GET
+2025-02-26 16:54:18.509 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 16:54:18.513 +02:00 [Information] finish requst:GET
+2025-02-26 16:54:18.526 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 140.5748ms
+2025-02-26 16:54:18.544 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 16:54:24.913 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:54:25.047 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 134.1094ms
+2025-02-26 16:54:25.176 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:54:25.321 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.UpDate (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:54:25.361 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 184.8859ms
+2025-02-26 16:54:43.045 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:54:43.065 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.UpDate (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:54:43.108 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 63.2009ms
+2025-02-26 16:55:16.499 +02:00 [Information] Application is shutting down...
+2025-02-26 16:55:45.660 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 16:55:45.913 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 16:55:45.920 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 16:55:45.923 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 16:55:45.926 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 16:55:55.087 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 16:55:55.287 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 201.9766ms
+2025-02-26 16:55:55.428 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 16:55:55.656 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 228.2632ms
+2025-02-26 17:02:14.439 +02:00 [Information] Application is shutting down...
+2025-02-26 17:02:26.462 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 17:02:26.733 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 17:02:26.743 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 17:02:26.747 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 17:02:26.751 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 17:02:42.617 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 17:02:42.862 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 246.946ms
+2025-02-26 17:02:43.008 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 17:02:43.121 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 17:02:43.153 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 147.1878ms
+2025-02-26 17:03:14.093 +02:00 [Information] Application is shutting down...
+2025-02-26 17:03:42.531 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 17:03:42.703 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 17:03:42.712 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 17:03:42.716 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 17:03:42.719 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 17:03:45.510 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 17:03:45.625 +02:00 [Information] requst:GET
+2025-02-26 17:03:45.637 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 17:03:45.641 +02:00 [Information] finish requst:GET
+2025-02-26 17:03:45.646 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 139.3902ms
+2025-02-26 17:03:45.655 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 17:03:50.630 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 17:03:50.764 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 135.2536ms
+2025-02-26 17:03:50.889 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 17:03:51.030 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 17:03:51.057 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 167.5517ms
+2025-02-26 17:12:12.136 +02:00 [Information] Application is shutting down...
+2025-02-26 17:12:24.482 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 17:12:24.696 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 17:12:24.706 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 17:12:24.708 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 17:12:24.710 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 17:12:29.728 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 17:12:29.865 +02:00 [Information] requst:GET
+2025-02-26 17:12:29.878 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 17:12:29.881 +02:00 [Information] finish requst:GET
+2025-02-26 17:12:29.892 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 167.5805ms
+2025-02-26 17:12:29.901 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 17:12:35.146 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 17:12:35.300 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 154.6922ms
+2025-02-26 17:12:35.519 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 17:12:35.635 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 17:12:35.673 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 154.4929ms
+2025-02-26 17:12:47.058 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 17:12:47.079 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 17:12:47.135 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 76.4633ms
+2025-02-26 17:16:33.049 +02:00 [Information] Application is shutting down...
+2025-02-26 17:16:52.318 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 17:16:52.550 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 17:16:52.560 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 17:16:52.564 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 17:16:52.568 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 17:16:56.527 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 17:16:56.610 +02:00 [Information] requst:GET
+2025-02-26 17:16:56.619 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 17:16:56.624 +02:00 [Information] finish requst:GET
+2025-02-26 17:16:56.630 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 104.5586ms
+2025-02-26 17:16:56.643 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 17:17:03.367 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 17:17:03.499 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 133.4356ms
+2025-02-26 17:17:03.630 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 17:17:03.843 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 212.4974ms
+2025-02-26 17:19:48.445 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 97
+2025-02-26 17:19:48.452 +02:00 [Information] requst:POST
+2025-02-26 17:19:48.456 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 17:19:48.506 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 17:19:48.706 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 17:19:48.719 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 200.6143ms
+2025-02-26 17:19:48.722 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 17:19:48.724 +02:00 [Information] finish requst:POST
+2025-02-26 17:19:48.726 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 281.5285ms
+2025-02-26 17:20:36.694 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 17:20:36.764 +02:00 [Information] Successfully validated the token.
+2025-02-26 17:20:36.767 +02:00 [Information] requst:GET
+2025-02-26 17:20:36.777 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 17:20:36.782 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 17:20:36.788 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 17:20:36.806 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 20.8682ms
+2025-02-26 17:20:36.811 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 17:20:36.812 +02:00 [Information] finish requst:GET
+2025-02-26 17:20:36.814 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 120.1032ms
+2025-02-26 17:33:05.428 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-02-26 17:33:05.445 +02:00 [Information] Successfully validated the token.
+2025-02-26 17:33:05.446 +02:00 [Information] requst:GET
+2025-02-26 17:33:05.450 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (Admin)"
+2025-02-26 17:33:05.454 +02:00 [Information] AuthenticationScheme: "Bearer" was forbidden.
+2025-02-26 17:33:05.455 +02:00 [Information] finish requst:GET
+2025-02-26 17:33:05.456 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 403 0 null 27.2287ms
+2025-02-26 18:13:08.223 +02:00 [Information] Application is shutting down...
+2025-02-26 18:20:34.068 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 18:20:34.332 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 18:20:34.338 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 18:20:34.340 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 18:20:34.341 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 18:20:47.450 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 18:20:47.628 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 179.5402ms
+2025-02-26 18:20:47.782 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 18:20:47.898 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 116.7972ms
+2025-02-26 18:21:07.388 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 85
+2025-02-26 18:21:07.422 +02:00 [Information] requst:POST
+2025-02-26 18:21:07.431 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 18:21:07.439 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:21:07.492 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 18:21:07.677 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 18:21:07.686 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 186.558ms
+2025-02-26 18:21:07.688 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:21:07.690 +02:00 [Information] finish requst:POST
+2025-02-26 18:21:07.692 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 303.4101ms
+2025-02-26 18:21:32.568 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-02-26 18:21:32.621 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:21:32.625 +02:00 [Information] requst:GET
+2025-02-26 18:21:32.629 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 18:21:32.633 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] GetAll()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:21:32.637 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.User, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-02-26 18:21:32.655 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.GetAll (proj1)" in 19.3714ms
+2025-02-26 18:21:32.656 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 18:21:32.657 +02:00 [Information] finish requst:GET
+2025-02-26 18:21:32.658 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null "application/json; charset=utf-8" 90.2563ms
+2025-02-26 18:21:43.860 +02:00 [Information] Application is shutting down...
+2025-02-26 18:23:55.811 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 18:23:55.957 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 18:23:55.962 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 18:23:55.964 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 18:23:55.965 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 18:24:00.024 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 18:24:00.148 +02:00 [Information] requst:GET
+2025-02-26 18:24:00.159 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 18:24:00.162 +02:00 [Information] finish requst:GET
+2025-02-26 18:24:00.169 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 151.3623ms
+2025-02-26 18:24:00.177 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 18:24:05.259 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 18:24:05.401 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 142.6166ms
+2025-02-26 18:24:05.550 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 18:24:05.736 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 186.7366ms
+2025-02-26 18:24:19.724 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 18:24:19.730 +02:00 [Information] requst:POST
+2025-02-26 18:24:19.734 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:24:19.783 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 18:24:19.940 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 18:24:19.948 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 157.9911ms
+2025-02-26 18:24:19.950 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:24:19.951 +02:00 [Information] finish requst:POST
+2025-02-26 18:24:19.953 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 229.1753ms
+2025-02-26 18:25:24.913 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Insert""" - "application/json" 79
+2025-02-26 18:25:24.985 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:25:24.988 +02:00 [Information] requst:POST
+2025-02-26 18:25:24.994 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Insert (proj1)"'
+2025-02-26 18:25:24.997 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:25:25.014 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 18:25:25.048 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Insert (proj1)" in 48.9778ms
+2025-02-26 18:25:25.050 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Insert (proj1)"'
+2025-02-26 18:25:25.051 +02:00 [Information] finish requst:POST
+2025-02-26 18:25:25.051 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Insert""" - 201 null "application/json; charset=utf-8" 138.163ms
+2025-02-26 18:25:44.079 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-02-26 18:25:44.082 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:25:44.084 +02:00 [Information] requst:GET
+2025-02-26 18:25:44.090 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 18:25:44.094 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] GetAll()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:25:44.097 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.User, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-02-26 18:25:44.106 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.GetAll (proj1)" in 9.8107ms
+2025-02-26 18:25:44.108 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 18:25:44.109 +02:00 [Information] finish requst:GET
+2025-02-26 18:25:44.110 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null "application/json; charset=utf-8" 31.8641ms
+2025-02-26 18:36:22.612 +02:00 [Information] Application is shutting down...
+2025-02-26 18:36:43.300 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 18:36:43.429 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 18:36:43.433 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 18:36:43.435 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 18:36:43.436 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 18:36:57.544 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 18:36:57.717 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 173.2972ms
+2025-02-26 18:36:57.828 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 18:36:57.920 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.Get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 18:36:57.942 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 114.9791ms
+2025-02-26 18:37:16.955 +02:00 [Information] Application is shutting down...
+2025-02-26 18:37:26.057 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 18:37:26.269 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 18:37:26.274 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 18:37:26.277 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 18:37:26.279 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 18:37:29.615 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 18:37:29.718 +02:00 [Information] requst:GET
+2025-02-26 18:37:29.729 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 18:37:29.732 +02:00 [Information] finish requst:GET
+2025-02-26 18:37:29.739 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 129.369ms
+2025-02-26 18:37:29.746 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 18:37:34.278 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 18:37:34.380 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 102.3665ms
+2025-02-26 18:37:34.484 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 18:37:34.623 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 138.9219ms
+2025-02-26 18:37:50.177 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 18:37:50.181 +02:00 [Information] requst:POST
+2025-02-26 18:37:50.187 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:37:50.223 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 18:37:50.343 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 18:37:50.348 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 118.4635ms
+2025-02-26 18:37:50.349 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:37:50.351 +02:00 [Information] finish requst:POST
+2025-02-26 18:37:50.352 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 175.0342ms
+2025-02-26 18:38:43.010 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 18:38:43.054 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:38:43.056 +02:00 [Information] requst:GET
+2025-02-26 18:38:43.064 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Admin, User' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Middelware.FirstMiddelware.Invoke(HttpContext httpContext) in C:\Users\user2\Documents\תכנות\core\proj1\core-project\Midelware\FirstMiddelware.cs:line 19
+   at Middelware.Loger.Invoke(HttpContext httpContext) in C:\Users\user2\Documents\תכנות\core\proj1\core-project\Midelware\loger.cs:line 15
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 18:38:43.099 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 500 null "text/plain; charset=utf-8" 89.6522ms
+2025-02-26 18:51:54.440 +02:00 [Information] Application is shutting down...
+2025-02-26 18:52:06.993 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 18:52:07.118 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 18:52:07.124 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 18:52:07.129 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 18:52:07.130 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 18:52:20.921 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 18:52:21.112 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 191.5404ms
+2025-02-26 18:52:21.213 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 18:52:21.334 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 121.6173ms
+2025-02-26 18:52:38.341 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 18:52:38.350 +02:00 [Information] requst:POST
+2025-02-26 18:52:38.356 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 18:52:38.362 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:52:38.395 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 18:52:38.531 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 18:52:38.539 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 137.0569ms
+2025-02-26 18:52:38.541 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 18:52:38.542 +02:00 [Information] finish requst:POST
+2025-02-26 18:52:38.543 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 202.5189ms
+2025-02-26 18:53:11.970 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 18:53:12.042 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:53:12.045 +02:00 [Information] requst:GET
+2025-02-26 18:53:12.050 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:53:12.056 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:53:12.063 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 18:53:12.091 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 32.8064ms
+2025-02-26 18:53:12.092 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:53:12.093 +02:00 [Information] finish requst:GET
+2025-02-26 18:53:12.094 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 404 null "application/problem+json; charset=utf-8" 124.0965ms
+2025-02-26 18:53:54.834 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 97
+2025-02-26 18:53:54.839 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:53:54.840 +02:00 [Information] requst:POST
+2025-02-26 18:53:54.843 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 18:53:54.847 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:53:54.879 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 18:53:54.881 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 32.5036ms
+2025-02-26 18:53:54.884 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 18:53:54.887 +02:00 [Information] finish requst:POST
+2025-02-26 18:53:54.888 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 54.1988ms
+2025-02-26 18:54:29.482 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 18:54:29.487 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:54:29.488 +02:00 [Information] requst:GET
+2025-02-26 18:54:29.495 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:54:29.504 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:54:29.508 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 18:54:29.509 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 1.6836ms
+2025-02-26 18:54:29.511 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:54:29.512 +02:00 [Information] finish requst:GET
+2025-02-26 18:54:29.513 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 404 null "application/problem+json; charset=utf-8" 30.3152ms
+2025-02-26 18:54:31.714 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 18:54:31.721 +02:00 [Information] Successfully validated the token.
+2025-02-26 18:54:31.723 +02:00 [Information] requst:GET
+2025-02-26 18:54:31.767 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:54:31.769 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 18:54:31.771 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 18:54:31.773 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 1.574ms
+2025-02-26 18:54:31.774 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 18:54:31.775 +02:00 [Information] finish requst:GET
+2025-02-26 18:54:31.776 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 404 null "application/problem+json; charset=utf-8" 62.1144ms
+2025-02-26 19:11:58.776 +02:00 [Information] Application is shutting down...
+2025-02-26 19:12:15.247 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 19:12:15.385 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 19:12:15.390 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 19:12:15.392 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 19:12:15.393 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 19:12:28.185 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 19:12:28.345 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 161.6355ms
+2025-02-26 19:12:28.445 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 19:12:28.556 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 111.6863ms
+2025-02-26 19:12:41.672 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 19:12:41.681 +02:00 [Information] requst:POST
+2025-02-26 19:12:41.687 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 19:12:41.691 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 19:12:41.721 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 19:12:41.837 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 19:12:41.842 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 115.6716ms
+2025-02-26 19:12:41.843 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 19:12:41.845 +02:00 [Information] finish requst:POST
+2025-02-26 19:12:41.846 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 174.4306ms
+2025-02-26 19:13:12.675 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 19:13:12.724 +02:00 [Information] Successfully validated the token.
+2025-02-26 19:13:12.726 +02:00 [Information] requst:GET
+2025-02-26 19:13:12.732 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:13:12.735 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 19:13:12.740 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 19:13:12.751 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 13.8257ms
+2025-02-26 19:13:12.752 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:13:12.753 +02:00 [Information] finish requst:GET
+2025-02-26 19:13:12.754 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 78.8765ms
+2025-02-26 19:13:39.029 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-02-26 19:13:39.032 +02:00 [Information] Successfully validated the token.
+2025-02-26 19:13:39.033 +02:00 [Information] requst:GET
+2025-02-26 19:13:39.036 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 19:13:39.039 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] GetAll()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 19:13:39.041 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.User, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-02-26 19:13:39.050 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.GetAll (proj1)" in 9.416ms
+2025-02-26 19:13:39.052 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.GetAll (proj1)"'
+2025-02-26 19:13:39.053 +02:00 [Information] finish requst:GET
+2025-02-26 19:13:39.054 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null "application/json; charset=utf-8" 25.2605ms
+2025-02-26 19:14:21.856 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 97
+2025-02-26 19:14:21.859 +02:00 [Information] Successfully validated the token.
+2025-02-26 19:14:21.861 +02:00 [Information] requst:POST
+2025-02-26 19:14:21.862 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 19:14:21.879 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 19:14:21.891 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 19:14:21.893 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 10.3037ms
+2025-02-26 19:14:21.896 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 19:14:21.897 +02:00 [Information] finish requst:POST
+2025-02-26 19:14:21.897 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 41.3745ms
+2025-02-26 19:14:49.550 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 19:14:49.554 +02:00 [Information] Successfully validated the token.
+2025-02-26 19:14:49.555 +02:00 [Information] requst:GET
+2025-02-26 19:14:49.559 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:14:49.560 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 19:14:49.564 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 19:14:49.565 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 2.7659ms
+2025-02-26 19:14:49.567 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:14:49.568 +02:00 [Information] finish requst:GET
+2025-02-26 19:14:49.569 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 18.7059ms
+2025-02-26 19:14:56.882 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-02-26 19:14:56.885 +02:00 [Information] Successfully validated the token.
+2025-02-26 19:14:56.886 +02:00 [Information] requst:GET
+2025-02-26 19:14:56.889 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:14:56.893 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 19:14:56.897 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 19:14:56.917 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 21.0651ms
+2025-02-26 19:14:56.918 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 19:14:56.920 +02:00 [Information] finish requst:GET
+2025-02-26 19:14:56.920 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 404 null "application/problem+json; charset=utf-8" 38.7167ms
+2025-02-26 19:43:28.773 +02:00 [Information] Application is shutting down...
+2025-02-26 21:33:49.010 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 21:33:49.144 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 21:33:49.147 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 21:33:49.149 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 21:33:49.150 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 21:34:38.848 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 21:34:39.033 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 186.6547ms
+2025-02-26 21:34:39.140 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 21:34:39.264 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 125.2835ms
+2025-02-26 21:34:58.894 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 21:34:58.918 +02:00 [Information] requst:POST
+2025-02-26 21:34:58.923 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 21:34:58.931 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 21:34:58.968 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 21:34:59.086 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:34:59.092 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 117.1938ms
+2025-02-26 21:34:59.093 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 21:34:59.094 +02:00 [Information] finish requst:POST
+2025-02-26 21:34:59.095 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 201.2649ms
+2025-02-26 21:35:24.925 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-02-26 21:35:24.973 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:35:24.975 +02:00 [Information] requst:GET
+2025-02-26 21:35:24.979 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:35:24.983 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.Sentence] Get()" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:35:24.988 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.Sentence, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-02-26 21:35:25.001 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 15.868ms
+2025-02-26 21:35:25.003 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:35:25.004 +02:00 [Information] finish requst:GET
+2025-02-26 21:35:25.006 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null "application/json; charset=utf-8" 81.0622ms
+2025-02-26 21:36:06.506 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - null null
+2025-02-26 21:36:06.512 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:36:06.513 +02:00 [Information] requst:GET
+2025-02-26 21:36:06.516 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:36:06.556 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.Sentence] Get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:36:06.561 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.Sentence"'.
+2025-02-26 21:36:06.564 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 6.209ms
+2025-02-26 21:36:06.565 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:36:06.567 +02:00 [Information] finish requst:GET
+2025-02-26 21:36:06.568 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - 200 null "application/json; charset=utf-8" 62.4234ms
+2025-02-26 21:36:28.636 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5036""""/SentenceControler/1""" - null null
+2025-02-26 21:36:28.641 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:36:28.643 +02:00 [Information] requst:DELETE
+2025-02-26 21:36:28.647 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Delete (proj1)"'
+2025-02-26 21:36:28.650 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"SentenceControler\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:36:28.658 +02:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-26 21:36:28.659 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Delete (proj1)" in 5.4231ms
+2025-02-26 21:36:28.661 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Delete (proj1)"'
+2025-02-26 21:36:28.662 +02:00 [Information] finish requst:DELETE
+2025-02-26 21:36:28.662 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5036""""/SentenceControler/1""" - 204 null null 26.2945ms
+2025-02-26 21:36:56.576 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 21:36:56.588 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:36:56.590 +02:00 [Information] requst:GET
+2025-02-26 21:36:56.591 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:36:56.594 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:36:56.603 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 21:36:56.607 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 5.5722ms
+2025-02-26 21:36:56.609 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:36:56.610 +02:00 [Information] finish requst:GET
+2025-02-26 21:36:56.611 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 34.2905ms
+2025-02-26 21:37:41.594 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 97
+2025-02-26 21:37:41.599 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:37:41.600 +02:00 [Information] requst:POST
+2025-02-26 21:37:41.602 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:37:41.610 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:37:41.624 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:37:41.625 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 12.6922ms
+2025-02-26 21:37:41.627 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:37:41.628 +02:00 [Information] finish requst:POST
+2025-02-26 21:37:41.629 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 35.0322ms
+2025-02-26 21:38:23.410 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-02-26 21:38:23.415 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:38:23.418 +02:00 [Information] requst:GET
+2025-02-26 21:38:23.420 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (Admin)"
+2025-02-26 21:38:23.424 +02:00 [Information] AuthenticationScheme: "Bearer" was forbidden.
+2025-02-26 21:38:23.425 +02:00 [Information] finish requst:GET
+2025-02-26 21:38:23.429 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 403 0 null 18.4503ms
+2025-02-26 21:38:37.287 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 21:38:37.290 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:38:37.291 +02:00 [Information] requst:GET
+2025-02-26 21:38:37.293 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:38:37.296 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:38:37.299 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 21:38:37.300 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 2.3204ms
+2025-02-26 21:38:37.304 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:38:37.305 +02:00 [Information] finish requst:GET
+2025-02-26 21:38:37.306 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 19.1838ms
+2025-02-26 21:38:44.695 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-02-26 21:38:44.697 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:38:44.698 +02:00 [Information] requst:GET
+2025-02-26 21:38:44.699 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:38:44.700 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:38:44.707 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:38:44.728 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 23.3391ms
+2025-02-26 21:38:44.730 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:38:44.731 +02:00 [Information] finish requst:GET
+2025-02-26 21:38:44.732 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 404 null "application/problem+json; charset=utf-8" 36.9491ms
+2025-02-26 21:39:04.382 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-02-26 21:39:04.401 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:39:04.404 +02:00 [Information] requst:GET
+2025-02-26 21:39:04.405 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:04.407 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.Sentence] Get()" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:39:04.412 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.Sentence, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-02-26 21:39:04.414 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 3.2464ms
+2025-02-26 21:39:04.415 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:04.416 +02:00 [Information] finish requst:GET
+2025-02-26 21:39:04.417 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null "application/json; charset=utf-8" 34.269ms
+2025-02-26 21:39:26.137 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - null null
+2025-02-26 21:39:26.151 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:39:26.152 +02:00 [Information] requst:GET
+2025-02-26 21:39:26.154 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:39:26.161 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.User] Get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:39:26.163 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-02-26 21:39:26.165 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Get (proj1)" in 2.0168ms
+2025-02-26 21:39:26.166 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Get (proj1)"'
+2025-02-26 21:39:26.167 +02:00 [Information] finish requst:GET
+2025-02-26 21:39:26.168 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/327824348""" - 200 null "application/json; charset=utf-8" 30.799ms
+2025-02-26 21:39:44.364 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/2""" - null null
+2025-02-26 21:39:44.367 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:39:44.381 +02:00 [Information] requst:GET
+2025-02-26 21:39:44.383 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:44.385 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.Sentence] Get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:39:44.393 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.Sentence"'.
+2025-02-26 21:39:44.396 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 3.7873ms
+2025-02-26 21:39:44.398 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:44.400 +02:00 [Information] finish requst:GET
+2025-02-26 21:39:44.400 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/2""" - 200 null "application/json; charset=utf-8" 36.1922ms
+2025-02-26 21:39:51.139 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/4""" - null null
+2025-02-26 21:39:51.141 +02:00 [Information] Successfully validated the token.
+2025-02-26 21:39:51.142 +02:00 [Information] requst:GET
+2025-02-26 21:39:51.143 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:51.144 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ListSentence.Modols.Sentence] Get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-02-26 21:39:51.146 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:39:51.148 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 1.5767ms
+2025-02-26 21:39:51.149 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-02-26 21:39:51.150 +02:00 [Information] finish requst:GET
+2025-02-26 21:39:51.151 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/4""" - 400 null "text/plain; charset=utf-8" 11.6748ms
+2025-02-26 21:47:12.203 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 21:47:12.207 +02:00 [Information] requst:GET
+2025-02-26 21:47:12.219 +02:00 [Information] finish requst:GET
+2025-02-26 21:47:12.220 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 17.0465ms
+2025-02-26 21:47:12.227 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 21:47:17.804 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 21:47:17.808 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 3.3906ms
+2025-02-26 21:47:17.945 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 21:47:17.956 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 10.1376ms
+2025-02-26 21:52:20.798 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:20.802 +02:00 [Information] requst:POST
+2025-02-26 21:52:20.804 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:20.818 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:20.841 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:20.843 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 19.6855ms
+2025-02-26 21:52:20.845 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:20.847 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:20.848 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 49.3151ms
+2025-02-26 21:52:22.246 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:22.250 +02:00 [Information] requst:POST
+2025-02-26 21:52:22.250 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.252 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:22.254 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:22.255 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.6562ms
+2025-02-26 21:52:22.257 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.259 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:22.260 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 14.3595ms
+2025-02-26 21:52:22.367 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:22.370 +02:00 [Information] requst:POST
+2025-02-26 21:52:22.371 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.372 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:22.375 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:22.376 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.4201ms
+2025-02-26 21:52:22.377 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.378 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:22.379 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 12.2634ms
+2025-02-26 21:52:22.644 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:22.647 +02:00 [Information] requst:POST
+2025-02-26 21:52:22.648 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.649 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:22.651 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:22.653 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.4627ms
+2025-02-26 21:52:22.654 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.654 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:22.655 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.4936ms
+2025-02-26 21:52:22.767 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:22.770 +02:00 [Information] requst:POST
+2025-02-26 21:52:22.771 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.772 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:22.775 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:22.777 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.7418ms
+2025-02-26 21:52:22.778 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:22.779 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:22.780 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 12.5602ms
+2025-02-26 21:52:23.014 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.017 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.018 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.019 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.022 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.024 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.3297ms
+2025-02-26 21:52:23.026 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.028 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.029 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 15.7357ms
+2025-02-26 21:52:23.137 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.140 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.141 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.142 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.145 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.146 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9228ms
+2025-02-26 21:52:23.147 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.148 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.149 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.7022ms
+2025-02-26 21:52:23.380 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.383 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.383 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.385 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.387 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.389 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.1443ms
+2025-02-26 21:52:23.390 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.392 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.393 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 13.4854ms
+2025-02-26 21:52:23.492 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.495 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.495 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.497 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.499 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.501 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.2382ms
+2025-02-26 21:52:23.503 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.505 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.505 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 13.6642ms
+2025-02-26 21:52:23.754 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.757 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.759 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.760 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.763 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.765 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.5206ms
+2025-02-26 21:52:23.767 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.769 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.770 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 15.559ms
+2025-02-26 21:52:23.861 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:23.864 +02:00 [Information] requst:POST
+2025-02-26 21:52:23.865 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.866 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:23.868 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:23.869 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.521ms
+2025-02-26 21:52:23.870 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:23.871 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:23.872 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.1441ms
+2025-02-26 21:52:24.109 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:24.111 +02:00 [Information] requst:POST
+2025-02-26 21:52:24.112 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.114 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:24.118 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:24.120 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.2913ms
+2025-02-26 21:52:24.126 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.128 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:24.129 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 20.8589ms
+2025-02-26 21:52:24.217 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:24.220 +02:00 [Information] requst:POST
+2025-02-26 21:52:24.221 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.222 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:24.227 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:24.229 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.7882ms
+2025-02-26 21:52:24.230 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.231 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:24.232 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 15.0159ms
+2025-02-26 21:52:24.502 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:24.504 +02:00 [Information] requst:POST
+2025-02-26 21:52:24.506 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.507 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:24.509 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:24.511 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9312ms
+2025-02-26 21:52:24.512 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.513 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:24.514 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 12.2441ms
+2025-02-26 21:52:24.686 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:52:24.689 +02:00 [Information] requst:POST
+2025-02-26 21:52:24.689 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.690 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:52:24.693 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:52:24.694 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.8769ms
+2025-02-26 21:52:24.695 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:52:24.696 +02:00 [Information] finish requst:POST
+2025-02-26 21:52:24.697 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.1024ms
+2025-02-26 21:53:28.540 +02:00 [Information] Application is shutting down...
+2025-02-26 21:53:47.072 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 21:53:47.211 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 21:53:47.216 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 21:53:47.217 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 21:53:47.218 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 21:53:50.850 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 21:53:50.991 +02:00 [Information] requst:GET
+2025-02-26 21:53:50.999 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 21:53:51.002 +02:00 [Information] finish requst:GET
+2025-02-26 21:53:51.009 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 162.9718ms
+2025-02-26 21:53:51.016 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 21:54:02.422 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-26 21:54:02.428 +02:00 [Information] requst:POST
+2025-02-26 21:54:02.432 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:54:02.457 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:54:02.485 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 21:54:02.557 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 94.3817ms
+2025-02-26 21:54:02.558 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:54:02.559 +02:00 [Information] finish requst:POST
+2025-02-26 21:54:02.560 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 139.1029ms
+2025-02-26 21:54:26.143 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-26 21:54:26.156 +02:00 [Information] requst:GET
+2025-02-26 21:54:26.164 +02:00 [Information] finish requst:GET
+2025-02-26 21:54:26.167 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 23.832ms
+2025-02-26 21:54:26.173 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-26 21:54:31.047 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/Login""" - null null
+2025-02-26 21:54:31.054 +02:00 [Information] requst:GET
+2025-02-26 21:54:31.064 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-02-26 21:54:31.075 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-02-26 21:54:31.076 +02:00 [Information] finish requst:GET
+2025-02-26 21:54:31.078 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/Login""" - 401 0 null 30.1798ms
+2025-02-26 21:55:15.194 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 21:55:15.200 +02:00 [Information] requst:GET
+2025-02-26 21:55:15.237 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-26 21:55:15.241 +02:00 [Information] finish requst:GET
+2025-02-26 21:55:15.243 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 48.6558ms
+2025-02-26 21:55:15.248 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 21:55:15.251 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-26 21:55:15.255 +02:00 [Information] requst:GET
+2025-02-26 21:55:15.258 +02:00 [Information] requst:GET
+2025-02-26 21:55:15.264 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 21:55:15.267 +02:00 [Information] finish requst:GET
+2025-02-26 21:55:15.270 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6302 "text/javascript" 21.7854ms
+2025-02-26 21:55:15.292 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-26 21:55:15.295 +02:00 [Information] finish requst:GET
+2025-02-26 21:55:15.296 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 44.2856ms
+2025-02-26 21:55:38.539 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 72
+2025-02-26 21:55:38.542 +02:00 [Information] requst:POST
+2025-02-26 21:55:38.543 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:55:38.544 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:55:38.655 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:55:38.657 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 109.6419ms
+2025-02-26 21:55:38.658 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:55:38.659 +02:00 [Information] finish requst:POST
+2025-02-26 21:55:38.660 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 120.2658ms
+2025-02-26 21:57:16.303 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 21:57:16.307 +02:00 [Information] requst:GET
+2025-02-26 21:57:16.313 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 21:57:16.314 +02:00 [Information] finish requst:GET
+2025-02-26 21:57:16.315 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 11.8987ms
+2025-02-26 21:57:16.327 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 21:57:16.330 +02:00 [Information] requst:GET
+2025-02-26 21:57:16.339 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 21:57:16.351 +02:00 [Information] finish requst:GET
+2025-02-26 21:57:16.354 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6306 "text/javascript" 26.5153ms
+2025-02-26 21:57:25.046 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 72
+2025-02-26 21:57:25.048 +02:00 [Information] requst:POST
+2025-02-26 21:57:25.049 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:57:25.050 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:57:25.071 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:57:25.074 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 4.3296ms
+2025-02-26 21:57:25.076 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:57:25.077 +02:00 [Information] finish requst:POST
+2025-02-26 21:57:25.078 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 32.0632ms
+2025-02-26 21:59:27.796 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 21:59:27.800 +02:00 [Information] requst:GET
+2025-02-26 21:59:27.809 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 21:59:27.810 +02:00 [Information] finish requst:GET
+2025-02-26 21:59:27.812 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 15.5225ms
+2025-02-26 21:59:27.829 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 21:59:27.835 +02:00 [Information] requst:GET
+2025-02-26 21:59:27.840 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 21:59:27.843 +02:00 [Information] finish requst:GET
+2025-02-26 21:59:27.845 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6305 "text/javascript" 16.1302ms
+2025-02-26 21:59:35.930 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 72
+2025-02-26 21:59:35.934 +02:00 [Information] requst:POST
+2025-02-26 21:59:35.934 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:59:35.935 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-26 21:59:35.938 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 21:59:35.939 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.1241ms
+2025-02-26 21:59:35.941 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-26 21:59:35.943 +02:00 [Information] finish requst:POST
+2025-02-26 21:59:35.944 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 13.249ms
+2025-02-26 22:01:16.480 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-26 22:01:16.535 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 55.4316ms
+2025-02-26 22:01:16.666 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-02-26 22:01:16.791 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 124.7838ms
+2025-02-26 22:04:40.144 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:04:40.146 +02:00 [Information] requst:GET
+2025-02-26 22:04:40.149 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:04:40.150 +02:00 [Information] finish requst:GET
+2025-02-26 22:04:40.152 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 7.4539ms
+2025-02-26 22:04:40.161 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:04:40.164 +02:00 [Information] requst:GET
+2025-02-26 22:04:40.171 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:04:40.176 +02:00 [Information] finish requst:GET
+2025-02-26 22:04:40.177 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6846 "text/javascript" 15.9797ms
+2025-02-26 22:05:31.656 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:05:31.659 +02:00 [Information] requst:GET
+2025-02-26 22:05:31.664 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:05:31.665 +02:00 [Information] finish requst:GET
+2025-02-26 22:05:31.667 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 10.8866ms
+2025-02-26 22:05:31.679 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:05:31.681 +02:00 [Information] requst:GET
+2025-02-26 22:05:31.685 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-26 22:05:31.686 +02:00 [Information] finish requst:GET
+2025-02-26 22:05:31.688 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 8.5212ms
+2025-02-26 22:05:44.780 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:05:44.782 +02:00 [Information] requst:GET
+2025-02-26 22:05:44.784 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:05:44.785 +02:00 [Information] finish requst:GET
+2025-02-26 22:05:44.788 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 8.3244ms
+2025-02-26 22:05:44.807 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:05:44.815 +02:00 [Information] requst:GET
+2025-02-26 22:05:44.817 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-26 22:05:44.818 +02:00 [Information] finish requst:GET
+2025-02-26 22:05:44.819 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 12.3487ms
+2025-02-26 22:06:33.514 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:06:33.516 +02:00 [Information] requst:GET
+2025-02-26 22:06:33.518 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:06:33.519 +02:00 [Information] finish requst:GET
+2025-02-26 22:06:33.521 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 6.5841ms
+2025-02-26 22:06:33.532 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:06:33.535 +02:00 [Information] requst:GET
+2025-02-26 22:06:33.538 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:06:33.542 +02:00 [Information] finish requst:GET
+2025-02-26 22:06:33.544 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6847 "text/javascript" 11.0782ms
+2025-02-26 22:06:39.543 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 6
+2025-02-26 22:06:39.546 +02:00 [Information] requst:POST
+2025-02-26 22:06:39.547 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:06:39.553 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:06:39.575 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:06:39.582 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 25.6983ms
+2025-02-26 22:06:39.584 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:06:39.585 +02:00 [Information] finish requst:POST
+2025-02-26 22:06:39.586 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 42.451ms
+2025-02-26 22:07:16.283 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:07:16.286 +02:00 [Information] requst:GET
+2025-02-26 22:07:16.292 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:07:16.293 +02:00 [Information] finish requst:GET
+2025-02-26 22:07:16.295 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 11.7999ms
+2025-02-26 22:07:16.310 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:07:16.317 +02:00 [Information] requst:GET
+2025-02-26 22:07:16.357 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:07:16.359 +02:00 [Information] finish requst:GET
+2025-02-26 22:07:16.361 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6878 "text/javascript" 50.5709ms
+2025-02-26 22:07:24.231 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 6
+2025-02-26 22:07:24.235 +02:00 [Information] requst:POST
+2025-02-26 22:07:24.237 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:07:24.239 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:07:24.243 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:07:24.245 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 3.1908ms
+2025-02-26 22:07:24.248 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:07:24.250 +02:00 [Information] finish requst:POST
+2025-02-26 22:07:24.251 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 20.4284ms
+2025-02-26 22:07:38.857 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Maneger/Login""" - null null
+2025-02-26 22:07:38.861 +02:00 [Information] requst:GET
+2025-02-26 22:07:38.862 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-02-26 22:07:38.871 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-02-26 22:07:38.874 +02:00 [Information] finish requst:GET
+2025-02-26 22:07:38.875 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Maneger/Login""" - 405 0 null 18.1709ms
+2025-02-26 22:08:05.857 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 8
+2025-02-26 22:08:05.860 +02:00 [Information] requst:POST
+2025-02-26 22:08:05.880 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:08:05.881 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:08:05.887 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-26 22:08:05.888 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 3.6222ms
+2025-02-26 22:08:05.890 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:08:05.891 +02:00 [Information] finish requst:POST
+2025-02-26 22:08:05.891 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 200 null "text/plain; charset=utf-8" 34.3073ms
+2025-02-26 22:12:05.234 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:12:05.236 +02:00 [Information] requst:GET
+2025-02-26 22:12:05.239 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:12:05.240 +02:00 [Information] finish requst:GET
+2025-02-26 22:12:05.241 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 7.5641ms
+2025-02-26 22:12:05.250 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:12:05.254 +02:00 [Information] requst:GET
+2025-02-26 22:12:05.260 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:12:05.263 +02:00 [Information] finish requst:GET
+2025-02-26 22:12:05.264 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6956 "text/javascript" 13.2041ms
+2025-02-26 22:12:11.656 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 20
+2025-02-26 22:12:11.659 +02:00 [Information] requst:POST
+2025-02-26 22:12:11.659 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:12:11.660 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:12:11.663 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:12:11.665 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 2.5091ms
+2025-02-26 22:12:11.667 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:12:11.668 +02:00 [Information] finish requst:POST
+2025-02-26 22:12:11.672 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 16.1554ms
+2025-02-26 22:24:30.166 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:24:30.168 +02:00 [Information] requst:GET
+2025-02-26 22:24:30.170 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:24:30.171 +02:00 [Information] finish requst:GET
+2025-02-26 22:24:30.174 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 8.2801ms
+2025-02-26 22:24:30.195 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:24:30.197 +02:00 [Information] requst:GET
+2025-02-26 22:24:30.201 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:24:30.204 +02:00 [Information] finish requst:GET
+2025-02-26 22:24:30.207 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6907 "text/javascript" 11.9398ms
+2025-02-26 22:24:35.769 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 20
+2025-02-26 22:24:35.772 +02:00 [Information] requst:POST
+2025-02-26 22:24:35.796 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:24:35.797 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:24:35.800 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:24:35.802 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 2.954ms
+2025-02-26 22:24:35.805 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:24:35.806 +02:00 [Information] finish requst:POST
+2025-02-26 22:24:35.807 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 37.9032ms
+2025-02-26 22:34:02.768 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:34:02.771 +02:00 [Information] requst:GET
+2025-02-26 22:34:02.773 +02:00 [Information] The file "/index.html" was not modified
+2025-02-26 22:34:02.793 +02:00 [Information] finish requst:GET
+2025-02-26 22:34:02.793 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 25.5681ms
+2025-02-26 22:34:02.802 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:34:02.805 +02:00 [Information] requst:GET
+2025-02-26 22:34:02.865 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:34:02.868 +02:00 [Information] finish requst:GET
+2025-02-26 22:34:02.870 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6908 "text/javascript" 67.686ms
+2025-02-26 22:34:08.380 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 21
+2025-02-26 22:34:08.383 +02:00 [Information] requst:POST
+2025-02-26 22:34:08.384 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:34:08.385 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:34:08.388 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:34:08.406 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 19.3138ms
+2025-02-26 22:34:08.409 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:34:08.410 +02:00 [Information] finish requst:POST
+2025-02-26 22:34:08.411 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 30.5741ms
+2025-02-26 22:34:31.548 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:34:31.551 +02:00 [Information] requst:GET
+2025-02-26 22:34:31.558 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-26 22:34:31.560 +02:00 [Information] finish requst:GET
+2025-02-26 22:34:31.562 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 14.3028ms
+2025-02-26 22:34:31.575 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-26 22:34:31.575 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:34:31.579 +02:00 [Information] requst:GET
+2025-02-26 22:34:31.581 +02:00 [Information] requst:GET
+2025-02-26 22:34:31.583 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-26 22:34:31.584 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:34:31.588 +02:00 [Information] finish requst:GET
+2025-02-26 22:34:31.593 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 17.9581ms
+2025-02-26 22:34:31.591 +02:00 [Information] finish requst:GET
+2025-02-26 22:34:31.597 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6908 "text/javascript" 22.1234ms
+2025-02-26 22:34:54.695 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 21
+2025-02-26 22:34:54.699 +02:00 [Information] requst:POST
+2025-02-26 22:34:54.700 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:34:54.704 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(System.String)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:34:54.707 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-02-26 22:34:54.709 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 2.8755ms
+2025-02-26 22:34:54.714 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:34:54.716 +02:00 [Information] finish requst:POST
+2025-02-26 22:34:54.718 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 400 null "application/problem+json; charset=utf-8" 22.4863ms
+2025-02-26 22:35:16.459 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Maneger/Login""" - null null
+2025-02-26 22:35:16.464 +02:00 [Information] requst:GET
+2025-02-26 22:35:16.467 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-02-26 22:35:16.470 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-02-26 22:35:16.474 +02:00 [Information] finish requst:GET
+2025-02-26 22:35:16.477 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Maneger/Login""" - 405 0 null 18.3279ms
+2025-02-26 22:35:36.521 +02:00 [Information] Application is shutting down...
+2025-02-26 22:35:52.463 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-26 22:35:52.589 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-26 22:35:52.593 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-26 22:35:52.595 +02:00 [Information] Hosting environment: "Development"
+2025-02-26 22:35:52.596 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-26 22:35:55.649 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:35:55.740 +02:00 [Information] requst:GET
+2025-02-26 22:35:55.754 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-26 22:35:55.755 +02:00 [Information] finish requst:GET
+2025-02-26 22:35:55.762 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 114.6184ms
+2025-02-26 22:36:06.355 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 21
+2025-02-26 22:36:06.362 +02:00 [Information] requst:POST
+2025-02-26 22:36:06.367 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-26 22:36:06.376 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:36:06.416 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(passwordObj)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:36:06.468 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 22:36:06.524 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 100.8135ms
+2025-02-26 22:36:06.525 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:36:06.527 +02:00 [Information] finish requst:POST
+2025-02-26 22:36:06.528 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 401 null "application/problem+json; charset=utf-8" 172.7585ms
+2025-02-26 22:36:30.497 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-26 22:36:30.507 +02:00 [Information] requst:GET
+2025-02-26 22:36:30.563 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-26 22:36:30.570 +02:00 [Information] finish requst:GET
+2025-02-26 22:36:30.572 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 74.9883ms
+2025-02-26 22:36:30.581 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-26 22:36:30.581 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-26 22:36:30.585 +02:00 [Information] requst:GET
+2025-02-26 22:36:30.588 +02:00 [Information] requst:GET
+2025-02-26 22:36:30.599 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-26 22:36:30.599 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-26 22:36:30.606 +02:00 [Information] finish requst:GET
+2025-02-26 22:36:30.604 +02:00 [Information] finish requst:GET
+2025-02-26 22:36:30.610 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 29.128ms
+2025-02-26 22:36:30.610 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 6908 "text/javascript" 29.2715ms
+2025-02-26 22:36:38.959 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - "application/json" 21
+2025-02-26 22:36:38.963 +02:00 [Information] requst:POST
+2025-02-26 22:36:39.003 +02:00 [Information] Executing endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:36:39.009 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"Maneger\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(passwordObj)" on controller "ListSentence.controllers.ManegerController" ("proj1").
+2025-02-26 22:36:39.019 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-26 22:36:39.022 +02:00 [Information] Executed action "ListSentence.controllers.ManegerController.Login (proj1)" in 4.4475ms
+2025-02-26 22:36:39.025 +02:00 [Information] Executed endpoint '"ListSentence.controllers.ManegerController.Login (proj1)"'
+2025-02-26 22:36:39.026 +02:00 [Information] finish requst:POST
+2025-02-26 22:36:39.027 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/Maneger/Login""" - 401 null "application/problem+json; charset=utf-8" 67.8178ms

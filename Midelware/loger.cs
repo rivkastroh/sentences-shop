@@ -1,5 +1,4 @@
 namespace Middelware;
-//שאלה למורה: איך אפשר לדעת איזה ניים-ספיס לעשות?
 public class Loger
 {
     private RequestDelegate next;

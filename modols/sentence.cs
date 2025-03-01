@@ -1,4 +1,4 @@
-namespace ListSentence.modols;
+namespace ListSentence.Modols;
 
 public class Sentence
 {

@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-using ListSentence.modols;
-using ListSentence.services;
+using ListSentence.Modols;
+using ListSentence.Services;
 using ListSentence.interfases;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ListSentence.controllers;
 [ApiController]
 [Route("[controller]")]
-
 public class SentenceControler : ControllerBase
 {
     private ISetenceService SetenceService;
@@ -16,19 +16,57 @@ public class SentenceControler : ControllerBase
     }
 
     [HttpGet]
-    public IEnumerable<Sentence> get()
+    [Authorize(Policy = "User")]
+    public IEnumerable<Sentence> Get()
     {
-        return SetenceService.GetAll();
+        //אם מנהל מחזיר הכל
+        if (User.FindFirst("type").Value == "Admin")
+        {
+            return SetenceService.GetAll();
+        }
+        //אם משתמש מחזיר לפי רשימת מזהי המשפטים שלו
+        else
+        {
+            List<Sentence> l = new List<Sentence>();
+            var idsClaim = User.FindFirst("SetenceIds")?.Value;
+            List<int> SetenceIds = idsClaim.Trim('[', ']').Split(',').Select(int.Parse).ToList();
+            foreach (int id in SetenceIds)
+            {
+                l.Add(SetenceService.Get(id));
+            }
+            return l;
+        }
+    }
+
+    [HttpGet("{id}")]
+    [Authorize(Policy = "User")]
+    public ActionResult<Sentence> Get(int id)
+    {
+        if (User.FindFirst("type")?.Value == "Admin")
+        {
+            return SetenceService.Get(id);
+        }
+        else
+        {
+            var idsClaim = User.FindFirst("SetenceIds")?.Value;
+            List<int> setenceIds = idsClaim.Trim('[', ']').Split(',').Select(int.Parse).ToList();
+            if (setenceIds.Contains(id))
+                return SetenceService.Get(id);
+            else
+                return BadRequest("No permission");
+        }
     }
 
     [HttpPost]
-    public ActionResult insert(Sentence sN)
+    [Authorize(Policy = "Admin")]
+    public ActionResult Insert(Sentence sN)
     {
         SetenceService.Add(sN);
-        return CreatedAtAction(nameof(insert), new { id = sN.Id }, sN);
+        return CreatedAtAction(nameof(Insert), new { id = sN.Id }, sN);
     }
 
     [HttpPut("{id}")]
+    [Authorize(Policy = "Admin")]
     public ActionResult UpDate(int id, Sentence s)
     {
         Sentence oldS = SetenceService.Get(id);
@@ -39,6 +77,7 @@ public class SentenceControler : ControllerBase
     }
 
     [HttpDelete("{id}")]
+    [Authorize(Policy = "Admin")]
     public ActionResult Delete(int id)
     {
         Sentence oldS = SetenceService.Get(id);

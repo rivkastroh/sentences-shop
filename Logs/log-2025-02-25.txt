@@ -1,0 +1,221 @@
+2025-02-25 19:05:57.253 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:05:57.524 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:05:57.530 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:05:57.533 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:05:57.535 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:06:32.275 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-25 19:06:32.591 +02:00 [Information] The file "/index.html" was not modified
+2025-02-25 19:06:32.613 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 342.752ms
+2025-02-25 19:06:32.762 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-25 19:06:32.763 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-25 19:06:32.793 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-25 19:06:32.796 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-25 19:06:32.810 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 48.4971ms
+2025-02-25 19:06:32.811 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 49.9598ms
+2025-02-25 19:06:32.956 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-25 19:06:32.970 +02:00 [Information] requst:GET
+2025-02-25 19:06:32.981 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-25 19:06:32.987 +02:00 [Information] finish requst:GET
+2025-02-25 19:06:32.990 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 33.2441ms
+2025-02-25 19:06:33.005 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-25 19:07:02.848 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:07:03.037 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 189.4416ms
+2025-02-25 19:07:03.272 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:07:03.487 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:07:03.536 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 263.5802ms
+2025-02-25 19:07:26.341 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:07:26.348 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 6.7673ms
+2025-02-25 19:07:26.463 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:07:26.471 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:07:26.506 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 43.0401ms
+2025-02-25 19:07:31.869 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:07:31.873 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 4.9157ms
+2025-02-25 19:07:32.012 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:07:32.020 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:07:32.035 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 22.9612ms
+2025-02-25 19:07:52.397 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:07:52.403 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 5.4364ms
+2025-02-25 19:07:52.596 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:07:52.603 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:07:52.616 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 20.1485ms
+2025-02-25 19:08:59.489 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:08:59.497 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:08:59.570 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 80.1075ms
+2025-02-25 19:09:31.026 +02:00 [Information] Application is shutting down...
+2025-02-25 19:09:38.361 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:09:38.561 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:09:38.567 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:09:38.570 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:09:38.573 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:09:47.694 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-25 19:09:47.798 +02:00 [Information] requst:GET
+2025-02-25 19:09:47.809 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-25 19:09:47.811 +02:00 [Information] finish requst:GET
+2025-02-25 19:09:47.821 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 129.311ms
+2025-02-25 19:09:47.831 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-25 19:10:01.947 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:10:02.105 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 158.139ms
+2025-02-25 19:10:02.295 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:10:02.471 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:10:02.505 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 209.8696ms
+2025-02-25 19:11:36.099 +02:00 [Information] Application is shutting down...
+2025-02-25 19:18:38.898 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:18:39.144 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:18:39.150 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:18:39.155 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:18:39.156 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:18:43.620 +02:00 [Information] Application is shutting down...
+2025-02-25 19:21:25.886 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:21:26.150 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:21:26.156 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:21:26.160 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:21:26.162 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:21:41.402 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:21:41.619 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 220.534ms
+2025-02-25 19:21:41.807 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:21:41.985 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:21:42.028 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 222.1964ms
+2025-02-25 19:22:07.388 +02:00 [Information] Application is shutting down...
+2025-02-25 19:23:28.784 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:23:29.024 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:23:29.030 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:23:29.035 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:23:29.038 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:23:33.043 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-25 19:23:33.156 +02:00 [Information] requst:GET
+2025-02-25 19:23:33.163 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-25 19:23:33.165 +02:00 [Information] finish requst:GET
+2025-02-25 19:23:33.175 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 134.491ms
+2025-02-25 19:23:33.187 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-25 19:23:45.598 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:23:45.758 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 160.3638ms
+2025-02-25 19:23:45.939 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:23:46.154 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:23:46.187 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 247.3143ms
+2025-02-25 19:27:20.551 +02:00 [Information] Application is shutting down...
+2025-02-25 19:27:28.964 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:27:29.191 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:27:29.197 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:27:29.200 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:27:29.201 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:27:43.168 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:27:43.374 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 207.4388ms
+2025-02-25 19:27:43.559 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:27:43.714 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:27:43.749 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 189.0521ms
+2025-02-25 19:28:10.514 +02:00 [Information] Application is shutting down...
+2025-02-25 19:28:19.060 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:28:19.308 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:28:19.313 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:28:19.317 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:28:19.320 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:28:33.094 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:28:33.304 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 211.3762ms
+2025-02-25 19:28:33.486 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:28:33.646 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:28:33.700 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 210.5779ms
+2025-02-25 19:41:29.908 +02:00 [Information] Application is shutting down...
+2025-02-25 19:50:31.638 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-25 19:50:31.909 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-25 19:50:31.914 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-25 19:50:31.916 +02:00 [Information] Hosting environment: "Development"
+2025-02-25 19:50:31.919 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-25 19:50:36.124 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-25 19:50:36.247 +02:00 [Information] requst:GET
+2025-02-25 19:50:36.255 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-25 19:50:36.257 +02:00 [Information] finish requst:GET
+2025-02-25 19:50:36.266 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 145.1068ms
+2025-02-25 19:50:36.278 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-25 19:50:43.940 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-25 19:50:44.097 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 158.0722ms
+2025-02-25 19:50:44.293 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:50:44.503 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:50:44.532 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/plain; charset=utf-8" 238.3557ms
+2025-02-25 19:51:08.241 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-25 19:51:08.262 +02:00 [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ListSentence.controllers.Usercontroller.get (proj1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 19:51:08.370 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 500 null "text/html; charset=utf-8" 128.9192ms
+2025-02-25 20:20:05.784 +02:00 [Information] Application is shutting down...

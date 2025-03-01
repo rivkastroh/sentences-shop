@@ -1,0 +1,40 @@
+2025-01-28 14:37:31.425 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-28 14:37:31.495 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-28 14:37:31.497 +02:00 [Information] Hosting environment: "Development"
+2025-01-28 14:37:31.498 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-28 14:38:00.802 +02:00 [Information] Application is shutting down...
+2025-01-28 14:38:05.651 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-28 14:38:05.708 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-28 14:38:05.711 +02:00 [Information] Hosting environment: "Development"
+2025-01-28 14:38:05.713 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-28 14:38:19.520 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-28 14:38:19.578 +02:00 [Information] requst:GET
+2025-01-28 14:38:19.582 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-28 14:38:19.584 +02:00 [Information] finish requst:GET
+2025-01-28 14:38:19.589 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 71.9371ms
+2025-01-28 14:38:19.597 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-28 14:38:25.966 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-28 14:38:26.072 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 106.6845ms
+2025-01-28 14:38:26.304 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-28 14:38:26.422 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 118.116ms
+2025-01-28 14:38:50.571 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-28 14:38:50.580 +02:00 [Information] requst:GET
+2025-01-28 14:38:50.593 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-28 14:38:50.664 +02:00 [Information] Route matched with "{action = \"get\", controller = \"SentenceControler\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.modols.Sentence] get()" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-01-28 14:38:50.675 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.modols.Sentence, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-28 14:38:50.693 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.get (proj1)" in 22.2902ms
+2025-01-28 14:38:50.694 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-28 14:38:50.696 +02:00 [Information] finish requst:GET
+2025-01-28 14:38:50.697 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null "application/json; charset=utf-8" 125.2526ms
+2025-01-28 14:39:11.666 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - null null
+2025-01-28 14:39:11.669 +02:00 [Information] requst:GET
+2025-01-28 14:39:11.670 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-28 14:39:11.680 +02:00 [Information] Route matched with "{action = \"get\", controller = \"SentenceControler\"}". Executing controller action with signature "ListSentence.modols.Sentence get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-01-28 14:39:11.720 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.modols.Sentence"'.
+2025-01-28 14:39:11.723 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.get (proj1)" in 40.9449ms
+2025-01-28 14:39:11.725 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-28 14:39:11.726 +02:00 [Information] finish requst:GET
+2025-01-28 14:39:11.727 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - 200 null "application/json; charset=utf-8" 60.9997ms
+2025-01-28 14:40:21.565 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-28 14:40:21.575 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 9.3846ms
+2025-01-28 14:56:54.912 +02:00 [Information] Application is shutting down...

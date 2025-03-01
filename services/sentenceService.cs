@@ -1,7 +1,8 @@
 using ListSentence.interfases;
-using ListSentence.modols;
+using ListSentence.Modols;
+using ListSentence.Services;
 
-namespace ListSentence.services
+namespace ListSentence.Services
 {
     public class SentenceService : ISetenceService
     {
@@ -11,7 +12,11 @@ namespace ListSentence.services
             List = new List<Sentence>
                 {
                   new Sentence{Id =1, Content="פחות משנה מה תבחרי יותר משנה שתבחרי"},
-                  new Sentence{Id= 2, Content ="יש לי מלך!"},
+                  new Sentence{Id= 2, Content ="איך אני אצא מהסיטואציה טובה יותר?!"},
+                  new Sentence{Id= 3, Content ="פחות משנה מה תבחרי יותר משנה שתבחרי"},
+                  new Sentence{Id= 4, Content ="אני רוצה יותר ולא היתר"},
+                  new Sentence{Id= 5, Content ="יש צדיק גוזר וד' מקיים ויש ד' גוזר וצדיק מקיים"},
+                  new Sentence{Id= 6, Content ="יש לי מלך!"},
                 };
         }
         public void Add(Sentence sN)
@@ -29,7 +34,7 @@ namespace ListSentence.services
 
         public Sentence Get(int id)
         {
-           return List.FirstOrDefault(i => id ==i.Id);
+            return List.FirstOrDefault(i => id == i.Id);
         }
 
         public List<Sentence> GetAll()
@@ -45,6 +50,13 @@ namespace ListSentence.services
                 oldS.Content = s.Content;
                 oldS.Subject = s.Subject;
             }
+        }
+    }
+    public static class SentenceServiceHelper
+    {
+        public static void AddSentenceService(this IServiceCollection services)
+        {
+            services.AddSingleton<ISetenceService, SentenceService>();
         }
     }
 }

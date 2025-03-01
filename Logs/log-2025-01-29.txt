@@ -1,0 +1,934 @@
+2025-01-29 08:09:59.064 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 08:09:59.124 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 08:09:59.126 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 08:09:59.128 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 08:10:02.842 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 08:10:02.842 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 08:10:02.912 +02:00 [Information] requst:GET
+2025-01-29 08:10:02.912 +02:00 [Information] requst:GET
+2025-01-29 08:10:02.916 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 08:10:02.918 +02:00 [Information] finish requst:GET
+2025-01-29 08:10:02.918 +02:00 [Information] finish requst:GET
+2025-01-29 08:10:02.930 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 86.5628ms
+2025-01-29 08:10:02.930 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 89.7049ms
+2025-01-29 08:10:02.938 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 08:10:02.938 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 08:10:14.560 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:10:14.677 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 117.2315ms
+2025-01-29 08:10:14.961 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:10:15.085 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 123.2751ms
+2025-01-29 08:12:07.744 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-01-29 08:12:07.748 +02:00 [Information] requst:GET
+2025-01-29 08:12:07.752 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:07.780 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] get()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:12:07.790 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 4.5628ms
+2025-01-29 08:12:07.792 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:07.794 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null null 50.332ms
+2025-01-29 08:12:29.502 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-01-29 08:12:29.505 +02:00 [Information] requst:GET
+2025-01-29 08:12:29.506 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:29.508 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] get()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:12:29.512 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 0.9428ms
+2025-01-29 08:12:29.513 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:29.515 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null null 13.2042ms
+2025-01-29 08:12:45.847 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-01-29 08:12:45.851 +02:00 [Information] requst:GET
+2025-01-29 08:12:45.853 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:45.868 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:12:45.871 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 0.4213ms
+2025-01-29 08:12:45.873 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:12:45.875 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 200 null null 27.8134ms
+2025-01-29 08:14:46.228 +02:00 [Information] Application is shutting down...
+2025-01-29 08:14:51.811 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 08:14:51.876 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 08:14:51.878 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 08:14:51.880 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 08:14:58.232 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:14:58.359 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 127.6911ms
+2025-01-29 08:14:58.568 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:14:58.701 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 133.8336ms
+2025-01-29 08:15:04.837 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-01-29 08:15:04.844 +02:00 [Information] requst:GET
+2025-01-29 08:15:04.849 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 08:15:04.854 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:04.875 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] get()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:15:04.913 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.User, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-29 08:15:04.939 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 58.7751ms
+2025-01-29 08:15:04.941 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:04.942 +02:00 [Information] finish requst:GET
+2025-01-29 08:15:04.943 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null "application/json; charset=utf-8" 105.935ms
+2025-01-29 08:15:26.156 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-01-29 08:15:26.160 +02:00 [Information] requst:GET
+2025-01-29 08:15:26.161 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:26.173 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:15:26.205 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-01-29 08:15:26.209 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 34.4343ms
+2025-01-29 08:15:26.211 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:26.213 +02:00 [Information] finish requst:GET
+2025-01-29 08:15:26.214 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 200 null "application/json; charset=utf-8" 57.6896ms
+2025-01-29 08:15:37.105 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - null null
+2025-01-29 08:15:37.108 +02:00 [Information] requst:GET
+2025-01-29 08:15:37.109 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:37.110 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:15:37.115 +02:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2025-01-29 08:15:37.117 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 3.172ms
+2025-01-29 08:15:37.119 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:15:37.121 +02:00 [Information] finish requst:GET
+2025-01-29 08:15:37.122 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - 204 null null 16.8728ms
+2025-01-29 08:17:53.739 +02:00 [Information] Application is shutting down...
+2025-01-29 08:17:59.198 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 08:17:59.264 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 08:17:59.266 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 08:17:59.267 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 08:18:07.656 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:18:07.790 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 135.212ms
+2025-01-29 08:18:07.912 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:18:08.050 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 138.5944ms
+2025-01-29 08:18:23.129 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-01-29 08:18:23.153 +02:00 [Information] requst:GET
+2025-01-29 08:18:23.160 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 08:18:23.164 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:18:23.199 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:18:23.216 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-01-29 08:18:23.233 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 28.6371ms
+2025-01-29 08:18:23.234 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:18:23.236 +02:00 [Information] finish requst:GET
+2025-01-29 08:18:23.236 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 200 null "application/json; charset=utf-8" 107.6753ms
+2025-01-29 08:18:30.619 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - null null
+2025-01-29 08:18:30.623 +02:00 [Information] requst:GET
+2025-01-29 08:18:30.624 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:18:30.626 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:18:30.629 +02:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2025-01-29 08:18:30.630 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 2.5488ms
+2025-01-29 08:18:30.632 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:18:30.634 +02:00 [Information] finish requst:GET
+2025-01-29 08:18:30.635 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - 204 null null 15.6304ms
+2025-01-29 08:19:08.258 +02:00 [Information] Application is shutting down...
+2025-01-29 08:19:13.333 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 08:19:13.392 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 08:19:13.394 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 08:19:13.394 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 08:19:20.019 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:19:20.148 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 131.1601ms
+2025-01-29 08:19:20.236 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:19:20.353 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 117.9516ms
+2025-01-29 08:19:34.459 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:19:34.465 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 6.521ms
+2025-01-29 08:19:34.817 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:19:34.828 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 10.679ms
+2025-01-29 08:19:46.438 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - null null
+2025-01-29 08:19:46.444 +02:00 [Information] requst:GET
+2025-01-29 08:19:46.451 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 08:19:46.455 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-29 08:19:46.482 +02:00 [Information] Route matched with "{action = \"get\", controller = \"SentenceControler\"}". Executing controller action with signature "ListSentence.Modols.Sentence get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-01-29 08:19:46.500 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.Sentence"'.
+2025-01-29 08:19:46.515 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.get (proj1)" in 25.411ms
+2025-01-29 08:19:46.519 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-29 08:19:46.520 +02:00 [Information] finish requst:GET
+2025-01-29 08:19:46.522 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/1""" - 200 null "application/json; charset=utf-8" 83.7101ms
+2025-01-29 08:20:06.598 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - null null
+2025-01-29 08:20:06.601 +02:00 [Information] requst:GET
+2025-01-29 08:20:06.602 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:20:06.640 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:20:06.644 +02:00 [Information] Executing "ObjectResult", writing value of type '"ListSentence.Modols.User"'.
+2025-01-29 08:20:06.648 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 5.4758ms
+2025-01-29 08:20:06.650 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:20:06.651 +02:00 [Information] finish requst:GET
+2025-01-29 08:20:06.652 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/1""" - 200 null "application/json; charset=utf-8" 54.4653ms
+2025-01-29 08:20:14.050 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - null null
+2025-01-29 08:20:14.053 +02:00 [Information] requst:GET
+2025-01-29 08:20:14.054 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:20:14.081 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "ListSentence.Modols.User get(Int32)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 08:20:14.084 +02:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2025-01-29 08:20:14.085 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 1.8667ms
+2025-01-29 08:20:14.087 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 08:20:14.088 +02:00 [Information] finish requst:GET
+2025-01-29 08:20:14.089 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/10""" - 204 null null 38.9216ms
+2025-01-29 08:21:05.008 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 08:21:05.011 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 3.2572ms
+2025-01-29 08:21:05.280 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 08:21:05.287 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 6.667ms
+2025-01-29 08:21:24.088 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/10""" - null null
+2025-01-29 08:21:24.124 +02:00 [Information] requst:GET
+2025-01-29 08:21:24.125 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-29 08:21:24.126 +02:00 [Information] Route matched with "{action = \"get\", controller = \"SentenceControler\"}". Executing controller action with signature "ListSentence.Modols.Sentence get(Int32)" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-01-29 08:21:24.129 +02:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2025-01-29 08:21:24.131 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.get (proj1)" in 2.0571ms
+2025-01-29 08:21:24.132 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.get (proj1)"'
+2025-01-29 08:21:24.134 +02:00 [Information] finish requst:GET
+2025-01-29 08:21:24.135 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler/10""" - 204 null null 46.4065ms
+2025-01-29 08:21:54.438 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/WeatherForecast""" - null null
+2025-01-29 08:21:54.440 +02:00 [Information] requst:GET
+2025-01-29 08:21:54.442 +02:00 [Information] Executing endpoint '"proj1.Controllers.WeatherForecastController.Get (proj1)"'
+2025-01-29 08:21:54.445 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[proj1.WeatherForecast] Get()" on controller "proj1.Controllers.WeatherForecastController" ("proj1").
+2025-01-29 08:21:54.450 +02:00 [Information] Executing "ObjectResult", writing value of type '"proj1.WeatherForecast[]"'.
+2025-01-29 08:21:54.466 +02:00 [Information] Executed action "proj1.Controllers.WeatherForecastController.Get (proj1)" in 18.9404ms
+2025-01-29 08:21:54.468 +02:00 [Information] Executed endpoint '"proj1.Controllers.WeatherForecastController.Get (proj1)"'
+2025-01-29 08:21:54.469 +02:00 [Information] finish requst:GET
+2025-01-29 08:21:54.469 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/WeatherForecast""" - 200 null "application/json; charset=utf-8" 31.69ms
+2025-01-29 14:53:33.697 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 14:53:33.780 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 14:53:33.783 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 14:53:33.784 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 14:53:38.640 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 14:53:38.824 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 14:53:38.824 +02:00 [Information] requst:GET
+2025-01-29 14:53:38.832 +02:00 [Information] requst:GET
+2025-01-29 14:53:38.832 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 14:53:38.834 +02:00 [Information] finish requst:GET
+2025-01-29 14:53:38.834 +02:00 [Information] finish requst:GET
+2025-01-29 14:53:38.844 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 205.9653ms
+2025-01-29 14:53:38.844 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 18.6815ms
+2025-01-29 14:53:38.853 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 14:53:38.853 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 14:53:48.078 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 14:53:48.228 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 149.9116ms
+2025-01-29 14:53:48.605 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 14:53:48.785 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 180.2549ms
+2025-01-29 14:54:13.106 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-01-29 14:54:13.111 +02:00 [Information] requst:GET
+2025-01-29 14:54:13.114 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 14:54:13.142 +02:00 [Information] Route matched with "{action = \"get\", controller = \"User\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ListSentence.Modols.User] get()" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 14:54:13.152 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.User, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-29 14:54:13.174 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.get (proj1)" in 24.3718ms
+2025-01-29 14:54:13.177 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.get (proj1)"'
+2025-01-29 14:54:13.178 +02:00 [Information] finish requst:GET
+2025-01-29 14:54:13.180 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 200 null "application/json; charset=utf-8" 73.9892ms
+2025-01-29 14:55:00.486 +02:00 [Information] Application is shutting down...
+2025-01-29 15:02:20.260 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 15:02:20.314 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 15:02:20.316 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 15:02:20.317 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 15:02:39.322 +02:00 [Information] Application is shutting down...
+2025-01-29 15:12:41.069 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 15:12:41.123 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 15:12:41.125 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 15:12:41.126 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 15:13:28.524 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 15:13:28.559 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 15:13:28.591 +02:00 [Information] requst:GET
+2025-01-29 15:13:28.591 +02:00 [Information] requst:GET
+2025-01-29 15:13:28.595 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 15:13:28.596 +02:00 [Information] finish requst:GET
+2025-01-29 15:13:28.596 +02:00 [Information] finish requst:GET
+2025-01-29 15:13:28.605 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 82.3035ms
+2025-01-29 15:13:28.605 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 45.4116ms
+2025-01-29 15:13:28.612 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 15:13:28.612 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 15:13:39.642 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 15:13:39.747 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 104.752ms
+2025-01-29 15:13:39.875 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 15:13:40.022 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 146.8029ms
+2025-01-29 15:13:50.312 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - null null
+2025-01-29 15:13:50.321 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'Admin' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 15:13:50.345 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User""" - 500 null "text/plain; charset=utf-8" 32.5177ms
+2025-01-29 15:14:53.406 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 15:14:53.410 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 3.9559ms
+2025-01-29 15:14:53.568 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 15:14:53.577 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 8.9972ms
+2025-01-29 15:43:08.778 +02:00 [Information] Application is shutting down...
+2025-01-29 15:43:23.887 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 15:43:23.983 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 15:43:23.986 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 15:43:23.988 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 15:43:27.705 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 15:43:27.835 +02:00 [Information] requst:GET
+2025-01-29 15:43:27.872 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 15:43:27.881 +02:00 [Information] finish requst:GET
+2025-01-29 15:43:27.901 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 202.1317ms
+2025-01-29 15:43:27.922 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 15:43:39.041 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 15:43:39.207 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 166.9954ms
+2025-01-29 15:43:39.426 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - null null
+2025-01-29 15:43:39.631 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 204.2063ms
+2025-01-29 15:44:07.339 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 85
+2025-01-29 15:44:07.384 +02:00 [Information] requst:POST
+2025-01-29 15:44:07.395 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 15:44:07.478 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 15:44:07.561 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 15:44:07.600 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 113.7727ms
+2025-01-29 15:44:07.604 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 15:44:07.608 +02:00 [Information] finish requst:POST
+2025-01-29 15:44:07.611 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 401 null "application/problem+json; charset=utf-8" 272.5019ms
+2025-01-29 15:44:47.656 +02:00 [Information] Application is shutting down...
+2025-01-29 16:03:24.599 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:03:24.705 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:03:24.708 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:03:24.709 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:03:27.095 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:03:27.154 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 16:03:27.193 +02:00 [Information] requst:GET
+2025-01-29 16:03:27.193 +02:00 [Information] requst:GET
+2025-01-29 16:03:27.199 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:03:27.202 +02:00 [Information] finish requst:GET
+2025-01-29 16:03:27.202 +02:00 [Information] finish requst:GET
+2025-01-29 16:03:27.210 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 117.1982ms
+2025-01-29 16:03:27.211 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 57.0258ms
+2025-01-29 16:03:27.223 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:03:27.224 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 16:03:35.933 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 16:03:36.140 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 206.2474ms
+2025-01-29 16:03:36.340 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 16:03:36.565 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 224.4204ms
+2025-01-29 16:12:11.406 +02:00 [Information] Application is shutting down...
+2025-01-29 16:12:19.931 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:12:20.007 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:12:20.010 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:12:20.012 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:12:41.612 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:12:41.687 +02:00 [Information] requst:GET
+2025-01-29 16:12:41.693 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:12:41.696 +02:00 [Information] finish requst:GET
+2025-01-29 16:12:41.707 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 97.4265ms
+2025-01-29 16:12:41.721 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:12:49.688 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 16:12:49.846 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 158.7428ms
+2025-01-29 16:12:50.051 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 16:12:50.261 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 210.3058ms
+2025-01-29 16:16:02.673 +02:00 [Information] Application is shutting down...
+2025-01-29 16:16:11.132 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:16:11.233 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:16:11.238 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:16:11.240 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:16:14.875 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:16:14.965 +02:00 [Information] requst:GET
+2025-01-29 16:16:14.972 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:16:14.974 +02:00 [Information] finish requst:GET
+2025-01-29 16:16:14.984 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 111.0935ms
+2025-01-29 16:16:14.997 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:16:27.970 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 16:16:28.131 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 161.4541ms
+2025-01-29 16:16:28.354 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 16:16:28.547 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 193.1327ms
+2025-01-29 16:17:39.705 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 16:17:39.727 +02:00 [Information] requst:POST
+2025-01-29 16:17:39.740 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 16:17:39.804 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 16:17:39.933 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 16:17:39.943 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 131.4608ms
+2025-01-29 16:17:39.947 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 16:17:39.950 +02:00 [Information] finish requst:POST
+2025-01-29 16:17:39.952 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 247.1394ms
+2025-01-29 16:40:10.012 +02:00 [Information] Application is shutting down...
+2025-01-29 16:42:26.678 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:42:26.776 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:42:26.779 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:42:26.782 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:42:33.846 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:42:33.930 +02:00 [Information] requst:GET
+2025-01-29 16:42:33.936 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:42:33.938 +02:00 [Information] finish requst:GET
+2025-01-29 16:42:33.947 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 104.4518ms
+2025-01-29 16:42:33.958 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:42.293 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:42.303 +02:00 [Information] requst:POST
+2025-01-29 16:42:42.305 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:42.308 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 14.8173ms
+2025-01-29 16:42:42.313 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:43.355 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:43.363 +02:00 [Information] requst:POST
+2025-01-29 16:42:43.366 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:43.368 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 12.5957ms
+2025-01-29 16:42:43.374 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:44.958 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:44.962 +02:00 [Information] requst:POST
+2025-01-29 16:42:44.964 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:44.969 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 11.0976ms
+2025-01-29 16:42:44.976 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:45.073 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:45.079 +02:00 [Information] requst:POST
+2025-01-29 16:42:45.082 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:45.084 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 10.9496ms
+2025-01-29 16:42:45.089 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:45.336 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:45.340 +02:00 [Information] requst:POST
+2025-01-29 16:42:45.343 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:45.345 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 8.8242ms
+2025-01-29 16:42:45.353 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:45.452 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:45.456 +02:00 [Information] requst:POST
+2025-01-29 16:42:45.457 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:45.459 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 7.7264ms
+2025-01-29 16:42:45.466 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:42:45.705 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:42:45.710 +02:00 [Information] requst:POST
+2025-01-29 16:42:45.711 +02:00 [Information] finish requst:POST
+2025-01-29 16:42:45.714 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 8.163ms
+2025-01-29 16:42:45.723 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:43:16.531 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 16:43:16.603 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 16:43:16.615 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1225 "text/html" 83.0152ms
+2025-01-29 16:43:16.638 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:43:16.648 +02:00 [Information] requst:GET
+2025-01-29 16:43:16.651 +02:00 [Information] finish requst:GET
+2025-01-29 16:43:16.653 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 15.7415ms
+2025-01-29 16:43:16.663 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:43:37.127 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - "application/json" 33
+2025-01-29 16:43:37.132 +02:00 [Information] requst:POST
+2025-01-29 16:43:37.133 +02:00 [Information] finish requst:POST
+2025-01-29 16:43:37.136 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/pizza""" - 404 0 null 8.9222ms
+2025-01-29 16:43:37.141 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:45:10.297 +02:00 [Information] Application is shutting down...
+2025-01-29 16:45:17.252 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:45:17.336 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:45:17.339 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:45:17.341 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:45:23.870 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 16:45:24.036 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 16:45:24.056 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1236 "text/html" 185.9068ms
+2025-01-29 16:45:24.086 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:45:24.124 +02:00 [Information] requst:GET
+2025-01-29 16:45:24.134 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:45:24.136 +02:00 [Information] finish requst:GET
+2025-01-29 16:45:24.142 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 58.0006ms
+2025-01-29 16:45:24.158 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:52:38.982 +02:00 [Information] Application is shutting down...
+2025-01-29 16:52:45.958 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 16:52:46.037 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 16:52:46.041 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 16:52:46.044 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 16:52:50.500 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 16:52:50.629 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 16:52:50.636 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1408 "text/html" 137.73ms
+2025-01-29 16:52:50.685 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:52:50.705 +02:00 [Information] requst:GET
+2025-01-29 16:52:50.713 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 16:52:50.715 +02:00 [Information] finish requst:GET
+2025-01-29 16:52:50.719 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 34.0968ms
+2025-01-29 16:52:50.734 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:53:07.367 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 16:53:07.384 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 16:53:07.390 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 23.183ms
+2025-01-29 16:53:07.777 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - null null
+2025-01-29 16:53:07.787 +02:00 [Information] requst:GET
+2025-01-29 16:53:07.789 +02:00 [Information] finish requst:GET
+2025-01-29 16:53:07.791 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/pizza""" - 404 0 null 14.6005ms
+2025-01-29 16:53:07.797 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/pizza", Response status code: 404
+2025-01-29 16:53:07.816 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 16:53:07.821 +02:00 [Information] requst:GET
+2025-01-29 16:53:07.823 +02:00 [Information] finish requst:GET
+2025-01-29 16:53:07.827 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 9.8529ms
+2025-01-29 16:53:07.833 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 16:53:28.786 +02:00 [Information] Application is shutting down...
+2025-01-29 17:26:24.212 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 17:26:24.298 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 17:26:24.301 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 17:26:24.303 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 17:26:30.129 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 17:26:30.269 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 17:26:30.276 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1563 "text/html" 149.5816ms
+2025-01-29 17:26:42.496 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 17:26:42.658 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 162.9091ms
+2025-01-29 17:26:42.869 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 17:26:43.128 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 259.6086ms
+2025-01-29 17:35:15.819 +02:00 [Information] Application is shutting down...
+2025-01-29 17:35:23.352 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 17:35:23.439 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 17:35:23.443 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 17:35:23.445 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 17:35:29.682 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 17:35:30.182 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 17:35:30.193 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1591 "text/html" 514.7392ms
+2025-01-29 17:35:50.447 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?name=%D7%A8%D7%91%D7%A7%D7%94&password=12345678" - null null
+2025-01-29 17:35:50.486 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 17:35:50.494 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?name=%D7%A8%D7%91%D7%A7%D7%94&password=12345678" - 200 1591 "text/html" 47.3334ms
+2025-01-29 17:35:51.708 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?name=&password=" - null null
+2025-01-29 17:35:51.722 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 17:35:51.731 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?name=&password=" - 200 1591 "text/html" 23.5014ms
+2025-01-29 18:18:13.908 +02:00 [Information] Application is shutting down...
+2025-01-29 18:18:18.590 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:18:18.647 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:18:18.649 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:18:18.650 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:18:28.359 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:18:28.520 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:18:28.537 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1591 "text/html" 177.8757ms
+2025-01-29 18:18:28.683 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 18:18:28.692 +02:00 [Information] requst:GET
+2025-01-29 18:18:28.698 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:18:28.700 +02:00 [Information] finish requst:GET
+2025-01-29 18:18:28.702 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 18.9819ms
+2025-01-29 18:18:28.709 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 18:19:21.921 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?id=1&password=12345678" - null null
+2025-01-29 18:19:21.937 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:19:21.939 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?id=1&password=12345678" - 200 1591 "text/html" 17.2497ms
+2025-01-29 18:19:47.269 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?id=1&password=12345678" - null null
+2025-01-29 18:19:47.277 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:19:47.279 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?id=1&password=12345678" - 200 1571 "text/html" 9.8755ms
+2025-01-29 18:19:55.967 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?id=1&password=12345678" - null null
+2025-01-29 18:19:55.973 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 18:19:55.975 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?id=1&password=12345678" - 304 null "text/html" 8.4902ms
+2025-01-29 18:20:19.328 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""?id=1&password=12345678" - null null
+2025-01-29 18:20:19.341 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 18:20:19.343 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""?id=1&password=12345678" - 304 null "text/html" 15.0379ms
+2025-01-29 18:22:06.381 +02:00 [Information] Application is shutting down...
+2025-01-29 18:22:10.934 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:22:10.985 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:22:10.987 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:22:10.988 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:22:15.505 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:22:15.642 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:22:15.656 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1571 "text/html" 153.4058ms
+2025-01-29 18:22:15.759 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 18:22:15.768 +02:00 [Information] requst:GET
+2025-01-29 18:22:15.774 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:22:15.775 +02:00 [Information] finish requst:GET
+2025-01-29 18:22:15.777 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 19.2906ms
+2025-01-29 18:22:15.782 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 18:25:25.462 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:25:25.518 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:25:25.520 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:25:25.521 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:25:31.451 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:25:31.580 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 18:25:31.594 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 146.6852ms
+2025-01-29 18:25:31.720 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 18:25:31.729 +02:00 [Information] requst:GET
+2025-01-29 18:25:31.735 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:25:31.736 +02:00 [Information] finish requst:GET
+2025-01-29 18:25:31.738 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 18.1246ms
+2025-01-29 18:25:31.749 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 18:26:13.186 +02:00 [Information] Application is shutting down...
+2025-01-29 18:27:52.878 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:27:52.947 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:27:52.950 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:27:52.951 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:27:57.690 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:27:57.876 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:27:57.882 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1574 "text/html" 193.6385ms
+2025-01-29 18:27:57.975 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 18:27:57.986 +02:00 [Information] requst:GET
+2025-01-29 18:27:57.992 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:27:57.993 +02:00 [Information] finish requst:GET
+2025-01-29 18:27:57.995 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 20.0145ms
+2025-01-29 18:27:58.001 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 18:28:23.153 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-01-29 18:28:23.162 +02:00 [Information] requst:GET
+2025-01-29 18:28:23.164 +02:00 [Information] finish requst:GET
+2025-01-29 18:28:23.167 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 14.1364ms
+2025-01-29 18:28:23.173 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-01-29 18:29:59.454 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 18:29:59.576 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 122.1891ms
+2025-01-29 18:29:59.780 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 18:29:59.908 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 127.7215ms
+2025-01-29 18:30:34.811 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 18:30:34.815 +02:00 [Information] requst:POST
+2025-01-29 18:30:34.819 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:30:34.851 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 18:30:34.935 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 18:30:34.942 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 83.3694ms
+2025-01-29 18:30:34.944 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:30:34.945 +02:00 [Information] finish requst:POST
+2025-01-29 18:30:34.946 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 134.9528ms
+2025-01-29 18:32:15.226 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:32:15.242 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 18:32:15.248 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1574 "text/html" 21.9393ms
+2025-01-29 18:32:15.254 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 18:32:15.254 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 18:32:15.262 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-01-29 18:32:15.262 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-01-29 18:32:15.268 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 4735 "text/javascript" 13.158ms
+2025-01-29 18:32:15.272 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 17.9129ms
+2025-01-29 18:35:04.560 +02:00 [Information] Application is shutting down...
+2025-01-29 18:35:13.085 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:35:13.147 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:35:13.149 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:35:13.150 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:35:17.407 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:35:17.514 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 18:35:17.523 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 124.8358ms
+2025-01-29 18:35:17.534 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 18:35:17.534 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 18:35:17.543 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 18:35:17.543 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 18:35:17.545 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 11.3372ms
+2025-01-29 18:35:17.546 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 12.2947ms
+2025-01-29 18:35:27.486 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 18:35:27.578 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 91.8324ms
+2025-01-29 18:35:27.834 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 18:35:27.954 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 120.866ms
+2025-01-29 18:35:53.648 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 18:35:53.660 +02:00 [Information] requst:POST
+2025-01-29 18:35:53.664 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:35:53.669 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:35:53.695 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 18:35:53.769 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 18:35:53.776 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 74.2035ms
+2025-01-29 18:35:53.777 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:35:53.778 +02:00 [Information] finish requst:POST
+2025-01-29 18:35:53.779 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 130.7888ms
+2025-01-29 18:36:54.903 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 18:36:54.909 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'User' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 18:36:54.934 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 500 null "text/plain; charset=utf-8" 30.8758ms
+2025-01-29 18:44:01.005 +02:00 [Information] Application is shutting down...
+2025-01-29 18:44:06.483 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 18:44:06.539 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:44:06.542 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 18:44:06.543 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 18:44:09.776 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 18:44:09.844 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 18:44:09.854 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 81.0139ms
+2025-01-29 18:44:09.872 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 18:44:09.872 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 18:44:09.881 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 18:44:09.882 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 18:44:09.884 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 13.1853ms
+2025-01-29 18:44:09.889 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 14.9434ms
+2025-01-29 18:44:19.244 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 18:44:19.346 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 101.7884ms
+2025-01-29 18:44:19.552 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 18:44:19.663 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 110.4903ms
+2025-01-29 18:44:40.269 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 18:44:40.279 +02:00 [Information] requst:POST
+2025-01-29 18:44:40.284 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 18:44:40.288 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:44:40.313 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 18:44:40.384 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 18:44:40.390 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 70.5844ms
+2025-01-29 18:44:40.391 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 18:44:40.392 +02:00 [Information] finish requst:POST
+2025-01-29 18:44:40.393 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 124.0635ms
+2025-01-29 18:45:12.028 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 18:45:12.037 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-01-29 18:45:12.041 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 18:45:12.061 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 500 null "text/plain; charset=utf-8" 33.0332ms
+2025-01-29 19:05:22.089 +02:00 [Information] Application is shutting down...
+2025-01-29 19:26:05.459 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 19:26:05.595 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 19:26:05.600 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:26:05.602 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 19:26:05.603 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 19:26:12.408 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 19:26:12.648 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 19:26:12.655 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 249.1659ms
+2025-01-29 19:26:12.670 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 19:26:12.670 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 19:26:12.680 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 19:26:12.684 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 14.4519ms
+2025-01-29 19:26:12.685 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 19:26:12.691 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 21.7024ms
+2025-01-29 19:26:20.662 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 19:26:20.761 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 99.7418ms
+2025-01-29 19:26:20.882 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 19:26:21.012 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 130.1482ms
+2025-01-29 19:26:40.288 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 19:26:40.297 +02:00 [Information] requst:POST
+2025-01-29 19:26:40.302 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 19:26:40.306 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:26:40.329 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 19:26:40.423 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 19:26:40.430 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 92.2234ms
+2025-01-29 19:26:40.432 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:26:40.433 +02:00 [Information] finish requst:POST
+2025-01-29 19:26:40.434 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 145.5032ms
+2025-01-29 19:27:11.462 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 19:27:11.537 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-01-29 19:27:11.552 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'."
+2025-01-29 19:27:11.553 +02:00 [Information] requst:GET
+2025-01-29 19:27:11.556 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null null 93.9224ms
+2025-01-29 19:33:33.159 +02:00 [Information] Application is shutting down...
+2025-01-29 19:33:38.645 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 19:33:38.783 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 19:33:38.787 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:33:38.789 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 19:33:38.790 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 19:33:41.462 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 19:33:41.749 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 19:33:41.756 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 295.276ms
+2025-01-29 19:33:41.769 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 19:33:41.769 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 19:33:41.779 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 19:33:41.779 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 19:33:41.782 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 13.0347ms
+2025-01-29 19:33:41.783 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 14.3576ms
+2025-01-29 19:33:48.523 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 19:33:48.617 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 94.1886ms
+2025-01-29 19:33:48.729 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 19:33:48.855 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 126.2327ms
+2025-01-29 19:34:10.891 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 19:34:10.898 +02:00 [Information] requst:POST
+2025-01-29 19:34:10.904 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 19:34:10.908 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:34:10.935 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 19:34:10.994 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 19:34:10.999 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 57.2958ms
+2025-01-29 19:34:11.000 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:34:11.002 +02:00 [Information] finish requst:POST
+2025-01-29 19:34:11.003 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 111.3461ms
+2025-01-29 19:34:36.578 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 19:34:36.589 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-01-29 19:34:36.604 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'."
+2025-01-29 19:34:36.606 +02:00 [Information] requst:GET
+2025-01-29 19:34:36.609 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null null 30.7898ms
+2025-01-29 19:35:52.255 +02:00 [Information] Application is shutting down...
+2025-01-29 19:35:57.307 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 19:35:57.435 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 19:35:57.440 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:35:57.442 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 19:35:57.443 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 19:36:08.628 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 19:36:08.756 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 129.5659ms
+2025-01-29 19:36:08.868 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 19:36:08.998 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.9034ms
+2025-01-29 19:36:27.882 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 19:36:27.906 +02:00 [Information] requst:POST
+2025-01-29 19:36:27.911 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 19:36:27.916 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:36:27.941 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 19:36:28.006 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 19:36:28.012 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 64.8918ms
+2025-01-29 19:36:28.014 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:36:28.015 +02:00 [Information] finish requst:POST
+2025-01-29 19:36:28.016 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 134.7649ms
+2025-01-29 19:37:01.963 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 19:37:01.974 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-01-29 19:37:01.990 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'."
+2025-01-29 19:37:01.994 +02:00 [Information] requst:GET
+2025-01-29 19:37:02.035 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 200 null null 72.5152ms
+2025-01-29 19:38:01.956 +02:00 [Information] Application is shutting down...
+2025-01-29 19:38:06.944 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 19:38:07.072 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 19:38:07.076 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:38:07.078 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 19:38:07.079 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 19:38:16.774 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 19:38:16.903 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 131.8924ms
+2025-01-29 19:38:17.017 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 19:38:17.145 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 128.7544ms
+2025-01-29 19:38:34.492 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 19:38:34.519 +02:00 [Information] requst:POST
+2025-01-29 19:38:34.524 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 19:38:34.527 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:38:34.552 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 19:38:34.609 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 19:38:34.616 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 56.896ms
+2025-01-29 19:38:34.617 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:38:34.619 +02:00 [Information] finish requst:POST
+2025-01-29 19:38:34.620 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 127.7512ms
+2025-01-29 19:38:58.432 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 19:38:58.443 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-01-29 19:38:58.460 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'."
+2025-01-29 19:38:58.463 +02:00 [Information] requst:GET
+2025-01-29 19:38:58.465 +02:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint ListSentence.controllers.SentenceControler.get (proj1) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Middelware.Loger.Invoke(HttpContext httpContext) in C:\Users\user2\Documents\תכנות\core\proj1\core-project\Midelware\loger.cs:line 15
+   at Middelware.FirstMiddelware.Invoke(HttpContext httpContext) in C:\Users\user2\Documents\תכנות\core\proj1\core-project\Midelware\FirstMiddelware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 19:38:58.482 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 500 null "text/plain; charset=utf-8" 49.3388ms
+2025-01-29 19:41:08.364 +02:00 [Information] Application is shutting down...
+2025-01-29 19:41:13.407 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 19:41:13.554 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-01-29 19:41:13.558 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:41:13.560 +02:00 [Information] Hosting environment: "Development"
+2025-01-29 19:41:13.561 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-01-29 19:41:15.814 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 19:41:15.919 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 19:41:15.926 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 114.474ms
+2025-01-29 19:41:15.939 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 19:41:15.939 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 19:41:15.948 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 19:41:15.948 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 19:41:15.950 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 11.2895ms
+2025-01-29 19:41:15.951 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 12.3181ms
+2025-01-29 19:41:28.598 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-01-29 19:41:28.697 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 98.7375ms
+2025-01-29 19:41:28.810 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-01-29 19:41:28.930 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 119.5256ms
+2025-01-29 19:41:45.770 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-01-29 19:41:45.781 +02:00 [Information] requst:POST
+2025-01-29 19:41:45.787 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-29 19:41:45.791 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:41:45.820 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 19:41:45.880 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-01-29 19:41:45.886 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 59.0054ms
+2025-01-29 19:41:45.888 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 19:41:45.889 +02:00 [Information] finish requst:POST
+2025-01-29 19:41:45.889 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 119.0901ms
+2025-01-29 19:42:11.163 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 19:42:11.173 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-01-29 19:42:11.187 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'."
+2025-01-29 19:42:11.234 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-01-29 19:42:11.240 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-01-29 19:42:11.242 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 401 0 null 78.7558ms
+2025-01-29 20:01:45.321 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-01-29 20:01:45.326 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-01-29 20:01:45.333 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-01-29 20:01:45.338 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 401 0 null 16.5951ms
+2025-01-29 20:33:07.704 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:33:07.727 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:33:07.735 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 31.4099ms
+2025-01-29 20:33:07.785 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 20:33:07.785 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:33:07.806 +02:00 [Information] The file "/css/site.css" was not modified
+2025-01-29 20:33:07.811 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 26.4189ms
+2025-01-29 20:33:07.814 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 20:33:07.827 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 41.4425ms
+2025-01-29 20:33:19.611 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 32
+2025-01-29 20:33:19.615 +02:00 [Information] requst:POST
+2025-01-29 20:33:19.617 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:33:19.620 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 20:33:19.646 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 20:33:19.693 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 68.8691ms
+2025-01-29 20:33:19.696 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:33:19.697 +02:00 [Information] finish requst:POST
+2025-01-29 20:33:19.698 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 87.5857ms
+2025-01-29 20:33:52.722 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 32
+2025-01-29 20:33:52.727 +02:00 [Information] requst:POST
+2025-01-29 20:33:52.729 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:33:52.734 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 20:33:52.741 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 20:33:52.747 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 7.4367ms
+2025-01-29 20:33:52.755 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:33:52.763 +02:00 [Information] finish requst:POST
+2025-01-29 20:33:52.769 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 46.5183ms
+2025-01-29 20:40:54.556 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:40:54.592 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 20:40:54.600 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1574 "text/html" 44.033ms
+2025-01-29 20:40:54.620 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 20:40:54.621 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:40:54.643 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-01-29 20:40:54.649 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-01-29 20:40:54.662 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 39.5778ms
+2025-01-29 20:40:54.669 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 4895 "text/javascript" 48.5843ms
+2025-01-29 20:41:09.257 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 32
+2025-01-29 20:41:09.262 +02:00 [Information] requst:POST
+2025-01-29 20:41:09.264 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:41:09.267 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 20:41:09.278 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 20:41:09.298 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 25.3362ms
+2025-01-29 20:41:09.304 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:41:09.309 +02:00 [Information] finish requst:POST
+2025-01-29 20:41:09.313 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 55.2037ms
+2025-01-29 20:43:31.611 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:43:31.620 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:43:31.628 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 16.3291ms
+2025-01-29 20:43:31.675 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:43:31.689 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-01-29 20:43:31.697 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 4913 "text/javascript" 22.2703ms
+2025-01-29 20:43:41.172 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 32
+2025-01-29 20:43:41.175 +02:00 [Information] requst:POST
+2025-01-29 20:43:41.176 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:43:41.178 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 20:43:41.186 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 20:43:41.188 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.7132ms
+2025-01-29 20:43:41.192 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:43:41.194 +02:00 [Information] finish requst:POST
+2025-01-29 20:43:41.196 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 23.5445ms
+2025-01-29 20:44:13.154 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:13.162 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:13.167 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 12.5896ms
+2025-01-29 20:44:13.192 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:44:13.213 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 20:44:13.216 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 23.8872ms
+2025-01-29 20:44:15.957 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:15.977 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:15.980 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 22.6787ms
+2025-01-29 20:44:17.092 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:17.104 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:17.108 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 15.4407ms
+2025-01-29 20:44:17.133 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:44:17.143 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 20:44:17.146 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 13.1646ms
+2025-01-29 20:44:17.443 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:17.454 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:17.457 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 13.587ms
+2025-01-29 20:44:17.629 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:17.635 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:17.637 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 8.1365ms
+2025-01-29 20:44:23.251 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:23.257 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:23.259 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 8.3376ms
+2025-01-29 20:44:23.308 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:44:23.321 +02:00 [Information] The file "/js/site.js" was not modified
+2025-01-29 20:44:23.324 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 15.7147ms
+2025-01-29 20:44:26.502 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:44:26.509 +02:00 [Information] The file "/index.html" was not modified
+2025-01-29 20:44:26.515 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 8.1157ms
+2025-01-29 20:46:03.555 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-01-29 20:46:03.569 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-01-29 20:46:03.572 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1574 "text/html" 17.51ms
+2025-01-29 20:46:03.612 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-01-29 20:46:03.613 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-01-29 20:46:03.633 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-01-29 20:46:03.654 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-01-29 20:46:03.660 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 47.8847ms
+2025-01-29 20:46:03.663 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 4946 "text/javascript" 49.2779ms
+2025-01-29 20:46:17.333 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 32
+2025-01-29 20:46:17.337 +02:00 [Information] requst:POST
+2025-01-29 20:46:17.341 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:46:17.344 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-01-29 20:46:17.366 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-01-29 20:46:17.370 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 4.1864ms
+2025-01-29 20:46:17.376 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-01-29 20:46:17.383 +02:00 [Information] finish requst:POST
+2025-01-29 20:46:17.394 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 60.5531ms

@@ -1,0 +1,501 @@
+2025-02-02 07:35:39.375 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 07:35:39.506 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 07:35:39.511 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 07:35:39.513 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 07:35:39.514 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 07:35:42.942 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:35:43.121 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 07:35:43.133 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 197.8216ms
+2025-02-02 07:35:43.164 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:35:43.164 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 07:35:43.177 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 07:35:43.177 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:35:43.179 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 15.6747ms
+2025-02-02 07:35:43.180 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 17.0284ms
+2025-02-02 07:35:43.230 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-02 07:35:43.242 +02:00 [Information] requst:GET
+2025-02-02 07:35:43.248 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-02 07:35:43.250 +02:00 [Information] finish requst:GET
+2025-02-02 07:35:43.252 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 21.1459ms
+2025-02-02 07:35:43.259 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-02 07:35:53.939 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - null null
+2025-02-02 07:35:54.038 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 99.1487ms
+2025-02-02 07:35:54.247 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - null null
+2025-02-02 07:35:54.408 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 161.2776ms
+2025-02-02 07:36:23.596 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 87
+2025-02-02 07:36:23.602 +02:00 [Information] requst:POST
+2025-02-02 07:36:23.635 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 07:36:23.665 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 07:36:23.791 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-02-02 07:36:23.797 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 123.9945ms
+2025-02-02 07:36:23.799 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 07:36:23.801 +02:00 [Information] finish requst:POST
+2025-02-02 07:36:23.802 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 206.0202ms
+2025-02-02 07:37:42.235 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-02-02 07:37:42.288 +02:00 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-02-02 07:37:42.308 +02:00 [Information] "Bearer" was not authenticated. Failure message: "IDX10500: Signature validation failed. No security keys were provided to validate the signature."
+2025-02-02 07:37:42.318 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-02-02 07:37:42.326 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-02-02 07:37:42.328 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 401 0 null 93.0854ms
+2025-02-02 07:38:12.212 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - null null
+2025-02-02 07:38:12.218 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-02-02 07:38:12.220 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-02-02 07:38:12.222 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/SentenceControler""" - 401 0 null 9.5797ms
+2025-02-02 07:42:57.261 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:42:57.276 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 07:42:57.278 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1777 "text/html" 16.9503ms
+2025-02-02 07:42:57.296 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:42:57.296 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 07:42:57.315 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 07:42:57.316 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 07:42:57.325 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 491 "text/css" 29.5936ms
+2025-02-02 07:42:57.325 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 4946 "text/javascript" 28.9231ms
+2025-02-02 07:43:19.364 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:43:19.368 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:43:19.369 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 4.8066ms
+2025-02-02 07:44:07.736 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:44:07.743 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 07:44:07.745 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1791 "text/html" 9.0154ms
+2025-02-02 07:44:07.756 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:44:07.762 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 07:44:07.764 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 7.8114ms
+2025-02-02 07:44:10.472 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:44:10.476 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 07:44:10.478 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 5.7493ms
+2025-02-02 07:44:10.490 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:44:10.494 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:44:10.496 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 5.533ms
+2025-02-02 07:44:10.654 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:44:10.658 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 07:44:10.660 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 5.3729ms
+2025-02-02 07:44:10.671 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:44:10.676 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:44:10.677 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 6.2752ms
+2025-02-02 07:56:47.917 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:56:47.922 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 07:56:47.924 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1940 "text/html" 7.1322ms
+2025-02-02 07:56:47.935 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:56:47.939 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:56:47.941 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 5.4342ms
+2025-02-02 07:56:49.187 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:56:49.193 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 07:56:49.195 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 7.4935ms
+2025-02-02 07:57:09.580 +02:00 [Information] Application is shutting down...
+2025-02-02 07:57:14.709 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 07:57:14.856 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 07:57:14.861 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 07:57:14.863 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 07:57:14.864 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 07:58:07.936 +02:00 [Information] Application is shutting down...
+2025-02-02 07:58:16.663 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 07:58:16.788 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 07:58:16.793 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 07:58:16.795 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 07:58:16.796 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 07:58:19.158 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:58:19.343 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 07:58:19.356 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 204.2743ms
+2025-02-02 07:58:19.401 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:58:19.415 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 07:58:19.421 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 18.8133ms
+2025-02-02 07:58:19.473 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-02 07:58:19.488 +02:00 [Information] requst:GET
+2025-02-02 07:58:19.495 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-02 07:58:19.497 +02:00 [Information] finish requst:GET
+2025-02-02 07:58:19.499 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 25.6359ms
+2025-02-02 07:58:19.508 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-02 07:58:34.258 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 07:58:34.277 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 07:58:34.280 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1940 "text/html" 21.7462ms
+2025-02-02 07:58:34.289 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 07:58:34.289 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 07:58:34.301 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 07:58:34.305 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5709 "text/javascript" 16.1256ms
+2025-02-02 07:58:34.313 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 07:58:34.317 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 28.1694ms
+2025-02-02 08:00:03.397 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:00:03.411 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:00:03.416 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1940 "text/html" 19.0406ms
+2025-02-02 08:00:03.438 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:00:03.438 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:00:03.447 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:00:03.455 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:00:03.463 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 24.5164ms
+2025-02-02 08:00:03.473 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5709 "text/javascript" 34.8338ms
+2025-02-02 08:00:47.933 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:00:47.939 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:00:47.942 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 9.1884ms
+2025-02-02 08:00:47.953 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:00:47.956 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:00:47.958 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 4.8459ms
+2025-02-02 08:01:06.379 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:01:06.385 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:01:06.386 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 7.2814ms
+2025-02-02 08:01:06.402 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:01:06.406 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:01:06.416 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:01:06.430 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 487 "text/css" 28.1076ms
+2025-02-02 08:01:06.433 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:01:06.439 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5709 "text/javascript" 33.3338ms
+2025-02-02 08:03:34.375 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:03:34.382 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:03:34.384 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 8.3745ms
+2025-02-02 08:03:34.398 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:03:34.398 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:03:34.408 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:03:34.417 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:03:34.426 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 28.1392ms
+2025-02-02 08:03:34.461 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5709 "text/javascript" 62.2ms
+2025-02-02 08:03:38.064 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:03:38.069 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:03:38.071 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 6.258ms
+2025-02-02 08:03:38.083 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:03:38.088 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:03:38.089 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 5.7495ms
+2025-02-02 08:04:03.307 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 08:04:03.546 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 08:04:03.580 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 08:04:03.611 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 08:04:03.613 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 08:04:06.298 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:04:06.535 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:04:06.550 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 254.7366ms
+2025-02-02 08:04:06.641 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:04:06.641 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:04:06.655 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:04:06.657 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:04:06.658 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 16.5592ms
+2025-02-02 08:04:06.660 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 20.0393ms
+2025-02-02 08:04:06.771 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-02 08:04:06.781 +02:00 [Information] requst:GET
+2025-02-02 08:04:06.790 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-02 08:04:06.792 +02:00 [Information] finish requst:GET
+2025-02-02 08:04:06.794 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 22.5193ms
+2025-02-02 08:04:06.800 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-02 08:04:18.377 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:04:18.382 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:04:18.383 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 6.0988ms
+2025-02-02 08:05:40.867 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:05:40.884 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:05:40.885 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 18.6514ms
+2025-02-02 08:05:40.895 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:05:40.895 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:05:40.917 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:05:40.922 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:05:40.925 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 29.8363ms
+2025-02-02 08:05:40.925 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5709 "text/javascript" 29.4013ms
+2025-02-02 08:08:53.175 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:08:53.179 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:08:53.180 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 4.6283ms
+2025-02-02 08:09:05.450 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:09:05.455 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:09:05.456 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 6.3761ms
+2025-02-02 08:09:05.469 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:09:05.476 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:09:05.478 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5741 "text/javascript" 8.6698ms
+2025-02-02 08:09:24.722 +02:00 [Information] Application is shutting down...
+2025-02-02 08:09:29.226 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 08:09:29.371 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 08:09:29.376 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 08:09:29.378 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 08:09:29.379 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 08:09:50.448 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:09:50.527 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:09:50.532 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 85.1173ms
+2025-02-02 08:09:50.587 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-02 08:09:50.596 +02:00 [Information] requst:GET
+2025-02-02 08:09:50.601 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-02 08:09:50.603 +02:00 [Information] finish requst:GET
+2025-02-02 08:09:50.604 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 17.6185ms
+2025-02-02 08:09:50.609 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-02 08:10:07.567 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:10:07.577 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:10:07.579 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 12.4335ms
+2025-02-02 08:10:07.733 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:10:07.741 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:10:07.755 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:10:07.763 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 28.2711ms
+2025-02-02 08:10:07.764 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:10:07.774 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 32.802ms
+2025-02-02 08:10:07.809 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-02-02 08:10:07.819 +02:00 [Information] requst:GET
+2025-02-02 08:10:07.821 +02:00 [Information] finish requst:GET
+2025-02-02 08:10:07.824 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 13.8554ms
+2025-02-02 08:10:07.829 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-02-02 08:10:41.535 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:10:41.540 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:10:41.542 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 6.4113ms
+2025-02-02 08:10:58.374 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:10:58.382 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:10:58.385 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 10.7885ms
+2025-02-02 08:10:58.406 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:10:58.406 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:10:58.422 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:10:58.422 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:10:58.431 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 24.822ms
+2025-02-02 08:10:58.431 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5741 "text/javascript" 24.3166ms
+2025-02-02 08:11:50.180 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:11:50.185 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:11:50.187 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 7.2335ms
+2025-02-02 08:11:50.206 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:11:50.207 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:11:50.214 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:11:50.217 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:11:50.219 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 12.8143ms
+2025-02-02 08:11:50.221 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5741 "text/javascript" 13.6908ms
+2025-02-02 08:14:16.377 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:14:16.383 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:14:16.385 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 8.0204ms
+2025-02-02 08:14:16.401 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:14:16.408 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:14:16.408 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:14:16.412 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 11.0464ms
+2025-02-02 08:14:16.413 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:14:16.421 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5755 "text/javascript" 12.7223ms
+2025-02-02 08:14:22.037 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:14:22.042 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:14:22.043 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 5.2954ms
+2025-02-02 08:14:22.060 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:14:22.064 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:14:22.066 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 6.482ms
+2025-02-02 08:14:38.561 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:14:38.567 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:14:38.568 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 7.4207ms
+2025-02-02 08:14:38.585 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:14:38.612 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:14:38.613 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 28ms
+2025-02-02 08:15:48.701 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:15:48.705 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:15:48.706 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 4.7772ms
+2025-02-02 08:15:48.721 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:15:48.722 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:15:48.725 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:15:48.728 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 6.3173ms
+2025-02-02 08:15:48.730 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:15:48.734 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5896 "text/javascript" 11.9315ms
+2025-02-02 08:15:55.472 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:15:55.477 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:15:55.478 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 6.122ms
+2025-02-02 08:15:55.491 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:15:55.496 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:15:55.497 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 5.6076ms
+2025-02-02 08:16:14.893 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:14.898 +02:00 [Information] requst:POST
+2025-02-02 08:16:14.925 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:14.954 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:14.978 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:15.046 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 86.1415ms
+2025-02-02 08:16:15.048 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:15.049 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:15.050 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 156.5522ms
+2025-02-02 08:16:15.783 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:15.786 +02:00 [Information] requst:POST
+2025-02-02 08:16:15.787 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:15.788 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:15.792 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:15.793 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 3.0017ms
+2025-02-02 08:16:15.794 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:15.795 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:15.796 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 12.6809ms
+2025-02-02 08:16:16.285 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:16.289 +02:00 [Information] requst:POST
+2025-02-02 08:16:16.290 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.291 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:16.293 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:16.294 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.3688ms
+2025-02-02 08:16:16.295 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.296 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:16.296 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.2572ms
+2025-02-02 08:16:16.377 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:16.379 +02:00 [Information] requst:POST
+2025-02-02 08:16:16.380 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.381 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:16.382 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:16.384 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.3611ms
+2025-02-02 08:16:16.385 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.386 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:16.387 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.0091ms
+2025-02-02 08:16:16.654 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:16.657 +02:00 [Information] requst:POST
+2025-02-02 08:16:16.657 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.658 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:16.660 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:16.662 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9294ms
+2025-02-02 08:16:16.663 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.664 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:16.665 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.5726ms
+2025-02-02 08:16:16.762 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:16.764 +02:00 [Information] requst:POST
+2025-02-02 08:16:16.765 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.766 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:16.768 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:16.770 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9465ms
+2025-02-02 08:16:16.771 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:16.773 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:16.774 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.3839ms
+2025-02-02 08:16:17.039 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.041 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.042 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.043 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.045 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.047 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.0616ms
+2025-02-02 08:16:17.048 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.049 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.072 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 33.3381ms
+2025-02-02 08:16:17.141 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.144 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.145 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.146 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.148 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.149 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9462ms
+2025-02-02 08:16:17.150 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.151 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.152 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.7867ms
+2025-02-02 08:16:17.409 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.412 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.412 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.414 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.416 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.418 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.074ms
+2025-02-02 08:16:17.419 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.420 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.421 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.7576ms
+2025-02-02 08:16:17.494 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.496 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.497 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.498 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.500 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.501 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.8222ms
+2025-02-02 08:16:17.502 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.503 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.505 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.8108ms
+2025-02-02 08:16:17.794 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.796 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.797 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.797 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.799 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.801 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.9347ms
+2025-02-02 08:16:17.802 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.803 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.804 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 9.7186ms
+2025-02-02 08:16:17.979 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:16:17.981 +02:00 [Information] requst:POST
+2025-02-02 08:16:17.981 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.982 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:16:17.984 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:16:17.985 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.6339ms
+2025-02-02 08:16:17.987 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:16:17.987 +02:00 [Information] finish requst:POST
+2025-02-02 08:16:17.988 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 9.4584ms
+2025-02-02 08:23:36.978 +02:00 [Information] Application is shutting down...
+2025-02-02 08:23:45.632 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-02 08:23:45.778 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-02-02 08:23:45.784 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-02 08:23:45.786 +02:00 [Information] Hosting environment: "Development"
+2025-02-02 08:23:45.787 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-02-02 08:23:54.950 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:23:55.021 +02:00 [Information] The file "/index.html" was not modified
+2025-02-02 08:23:55.026 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 304 null "text/html" 77.2461ms
+2025-02-02 08:23:55.043 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:23:55.043 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:23:55.052 +02:00 [Information] The file "/js/site.js" was not modified
+2025-02-02 08:23:55.052 +02:00 [Information] The file "/css/site.css" was not modified
+2025-02-02 08:23:55.054 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 304 null "text/javascript" 11.736ms
+2025-02-02 08:23:55.055 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 304 null "text/css" 12.6654ms
+2025-02-02 08:24:07.344 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:07.353 +02:00 [Information] requst:POST
+2025-02-02 08:24:07.357 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-02-02 08:24:07.359 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:07.386 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:07.412 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:07.482 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 90.0772ms
+2025-02-02 08:24:07.483 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:07.485 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:07.485 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 141.0291ms
+2025-02-02 08:24:08.312 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:08.315 +02:00 [Information] requst:POST
+2025-02-02 08:24:08.315 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.317 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:08.320 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:08.321 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.4856ms
+2025-02-02 08:24:08.323 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.324 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:08.325 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 13.3628ms
+2025-02-02 08:24:08.427 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:08.430 +02:00 [Information] requst:POST
+2025-02-02 08:24:08.431 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.432 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:08.434 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:08.435 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.8233ms
+2025-02-02 08:24:08.437 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.437 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:08.438 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.8041ms
+2025-02-02 08:24:08.697 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:08.699 +02:00 [Information] requst:POST
+2025-02-02 08:24:08.700 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.701 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:08.703 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:08.704 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.0049ms
+2025-02-02 08:24:08.706 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.707 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:08.708 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.8242ms
+2025-02-02 08:24:08.820 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:08.822 +02:00 [Information] requst:POST
+2025-02-02 08:24:08.823 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.824 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:08.826 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:08.827 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.7297ms
+2025-02-02 08:24:08.828 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:08.830 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:08.831 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.5843ms
+2025-02-02 08:24:09.159 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:09.162 +02:00 [Information] requst:POST
+2025-02-02 08:24:09.162 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.163 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:09.166 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:09.167 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.0948ms
+2025-02-02 08:24:09.169 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.170 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:09.171 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.4222ms
+2025-02-02 08:24:09.282 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:09.284 +02:00 [Information] requst:POST
+2025-02-02 08:24:09.285 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.286 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:09.288 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:09.289 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.7119ms
+2025-02-02 08:24:09.291 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.292 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:09.293 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 10.9215ms
+2025-02-02 08:24:09.552 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:24:09.554 +02:00 [Information] requst:POST
+2025-02-02 08:24:09.555 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.556 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:24:09.558 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:24:09.559 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 1.8139ms
+2025-02-02 08:24:09.561 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:24:09.562 +02:00 [Information] finish requst:POST
+2025-02-02 08:24:09.564 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 11.8693ms
+2025-02-02 08:24:16.361 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-02-02 08:24:16.371 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-02-02 08:24:16.372 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 11.6766ms
+2025-02-02 08:24:16.406 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-02-02 08:24:16.408 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-02-02 08:24:16.414 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-02-02 08:24:16.416 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 10.2425ms
+2025-02-02 08:24:16.418 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-02-02 08:24:16.422 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 5896 "text/javascript" 13.5626ms
+2025-02-02 08:25:12.461 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "text/plain;charset=UTF-8" 40
+2025-02-02 08:25:12.463 +02:00 [Information] requst:POST
+2025-02-02 08:25:12.464 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:25:12.465 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-02-02 08:25:12.467 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-02-02 08:25:12.469 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 2.3327ms
+2025-02-02 08:25:12.471 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-02-02 08:25:12.472 +02:00 [Information] finish requst:POST
+2025-02-02 08:25:12.474 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 415 null "application/problem+json; charset=utf-8" 13.3548ms

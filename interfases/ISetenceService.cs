@@ -1,4 +1,4 @@
-using ListSentence.modols;
+using ListSentence.Modols;
 
 namespace ListSentence.interfases
 {

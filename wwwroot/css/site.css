@@ -1,3 +1,29 @@
+html {
+    direction: rtl;
+}
+
+.login {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#loginManeger {
+    display: none;
+}
+
+#loginUser {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 input[type='submit'],
 button,
 [aria-label] {

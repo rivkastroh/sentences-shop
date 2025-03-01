@@ -1,5 +1,4 @@
 namespace Middelware;
-//שאלה למורה: איך אפשר לדעת איזה ניים-ספיס לעשות?
 public class FirstMiddelware
 {
     private RequestDelegate next;
@@ -9,14 +8,16 @@ public class FirstMiddelware
     }
 
     public async Task Invoke(HttpContext httpContext){
-        try
-        {
-            await next.Invoke(httpContext);
-        }
-        catch (System.Exception e)
-        {
-           await httpContext.Response.WriteAsync(""+e.GetHashCode);
-        }
+        // try
+        // {
+        //     await next.Invoke(httpContext);
+        // }
+        // catch (System.Exception e)
+        // {
+        //    await httpContext.Response.WriteAsync("my eror: you see? "+e.GetHashCode);
+        // }
+                    await next.Invoke(httpContext);
+
     }
 }
 public static partial class ExtentionMidelware{
