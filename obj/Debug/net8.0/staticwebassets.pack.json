@@ -1,16 +1,40 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\css\\products.css",
+      "PackagePath": "staticwebassets\\css\\products.css"
+    },
+    {
       "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\css\\users.css",
+      "PackagePath": "staticwebassets\\css\\users.css"
     },
     {
       "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\js\\products.js",
+      "PackagePath": "staticwebassets\\js\\products.js"
+    },
+    {
       "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\js\\users.js",
+      "PackagePath": "staticwebassets\\js\\users.js"
+    },
+    {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\products.html",
+      "PackagePath": "staticwebassets\\products.html"
+    },
+    {
+      "Id": "C:\\Users\\user2\\Documents\\תכנות\\core\\proj1\\core-project\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.proj1.props",

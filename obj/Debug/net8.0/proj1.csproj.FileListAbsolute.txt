@@ -98,3 +98,5 @@ C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Mic
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\JSON\sentence.json
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\JSON\users.json

@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>products</title>
+    <link rel="stylesheet" href="./css/products.css">
 </head>
+
 <body>
-    
+    <button id="manegerUsers" onclick="manegerUsers()">ניהול משתמשים</button>
+
+    <table border="1">
+        <tr>
+            <th>מזהה</th>
+            <th>משפט</th>
+            <th>נושא</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="sentence"></tbody>
+    </table>
+
+    <div id="editForm">
+        <h3>עריכה</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-content">
+            <input type="text" id="edit-subject">
+            <input type="submit" value="שמירה">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-content" placeholder="משפט">
+        <input type="text" id="add-subject" placeholder="נושא">
+        <input type="submit" value="Add">
+    </form>
+
+    <script src="./js/products.js"></script>
 </body>
+
 </html>

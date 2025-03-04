@@ -3,6 +3,7 @@ using ListSentence.Modols;
 using ListSentence.Services;
 using ListSentence.interfases;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ListSentence.controllers;
 [ApiController]
@@ -10,14 +11,16 @@ namespace ListSentence.controllers;
 public class SentenceControler : ControllerBase
 {
     private ISetenceService SetenceService;
-    public SentenceControler(ISetenceService setenceService)
+    private IUserService userService;
+    public SentenceControler(ISetenceService setenceService,IUserService userService)
     {
         this.SetenceService = setenceService;
+        this.userService=userService;
     }
 
     [HttpGet]
     [Authorize(Policy = "User")]
-    public IEnumerable<Sentence> Get()
+    public ActionResult<List<Sentence>> Get()
     {
         //אם מנהל מחזיר הכל
         if (User.FindFirst("type").Value == "Admin")
@@ -28,8 +31,7 @@ public class SentenceControler : ControllerBase
         else
         {
             List<Sentence> l = new List<Sentence>();
-            var idsClaim = User.FindFirst("SetenceIds")?.Value;
-            List<int> SetenceIds = idsClaim.Trim('[', ']').Split(',').Select(int.Parse).ToList();
+            List<int> SetenceIds = userService.Get(int.Parse(User.FindFirst("id")?.Value)).SetenceIds;
             foreach (int id in SetenceIds)
             {
                 l.Add(SetenceService.Get(id));
@@ -48,9 +50,8 @@ public class SentenceControler : ControllerBase
         }
         else
         {
-            var idsClaim = User.FindFirst("SetenceIds")?.Value;
-            List<int> setenceIds = idsClaim.Trim('[', ']').Split(',').Select(int.Parse).ToList();
-            if (setenceIds.Contains(id))
+            List<int> SetenceIds = userService.Get(int.Parse(User.FindFirst("id")?.Value)).SetenceIds;
+            if (SetenceIds.Contains(id))
                 return SetenceService.Get(id);
             else
                 return BadRequest("No permission");
@@ -58,17 +59,30 @@ public class SentenceControler : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "User")]
     public ActionResult Insert(Sentence sN)
     {
         SetenceService.Add(sN);
+        if (User.FindFirst("type")?.Value == "User")
+        {
+           User user= userService.Get(int.Parse(User.FindFirst("id")?.Value));
+           user.SetenceIds.Add(sN.Id);
+        }
         return CreatedAtAction(nameof(Insert), new { id = sN.Id }, sN);
     }
 
     [HttpPut("{id}")]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "User")]
     public ActionResult UpDate(int id, Sentence s)
     {
+        //בדיקה שהמזהה שייך למשתמש אחרת שגיאה
+        if (User.FindFirst("type")?.Value == "User")
+        {
+            List<int> SetenceIds = userService.Get(int.Parse(User.FindFirst("id")?.Value)).SetenceIds;
+            if (! SetenceIds.Contains(id))
+                return NotFound();
+        }
+
         Sentence oldS = SetenceService.Get(id);
         if (oldS == null)
             return BadRequest("not found id");
@@ -77,9 +91,17 @@ public class SentenceControler : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "User")]
     public ActionResult Delete(int id)
     {
+         //בדיקה שהמזהה שייך למשתמש אחרת שגיאה
+        if (User.FindFirst("type")?.Value == "User")
+        {
+            List<int> SetenceIds = userService.Get(int.Parse(User.FindFirst("id")?.Value)).SetenceIds;
+            if (! SetenceIds.Contains(id))
+                return NotFound();
+            userService.Get(int.Parse(User.FindFirst("id")?.Value)).SetenceIds.Remove(id);
+        }
         Sentence oldS = SetenceService.Get(id);
         if (oldS == null)
             return BadRequest("not found");

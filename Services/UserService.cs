@@ -1,3 +1,5 @@
+using System.Text;
+using System.Text.Json;
 using ListSentence.interfases;
 using ListSentence.Modols;
 using ListSentence.Services;
@@ -9,27 +11,23 @@ namespace ListSentence.Services
         private List<User> List;
         public UserService()
         {
-            //בעיקרון כאן כדאי קריאה מדטה בייס
-            List = new List<User>
-                {
-                 new User{Id=327824348,Name="רבקה",pasword="12345678",SetenceIds=new List<int> { 1, 2, 3 }},
-                 new User{Id=1,Name="רחל",pasword="87654321",SetenceIds=new List<int> { 4, 3 }},
-                 new User{Id=1,Name="שרה",pasword="אבגדהוזח",SetenceIds=new List<int> { 1, 5, 3 }},
-                 new User{Id=1,Name="לאה",pasword="חזוהדגבא",SetenceIds=new List<int> { 1, 2, 6 }},
-                };
+            List = ReadUsersFromJson("./JSON/users.json");
         }
         public void Add(User uN)
         {
             if (List.FirstOrDefault(u => u.Id == uN.Id) == null)
             {
-                List.Add(uN);
+                if (!List.Any(u => u.Id == uN.Id))
+                    List.Add(uN);
             }
+            WriteUsersToJson("./JSON/users.json", List);
         }
 
         public void Delete(int id)
         {
             User oldU = List.FirstOrDefault(u => u.Id == id);
             List.Remove(oldU);
+            WriteUsersToJson("./JSON/users.json", List);
         }
 
         public User Get(int id)
@@ -48,9 +46,21 @@ namespace ListSentence.Services
             if (oldU != null)
             {
                 oldU.Name = u.Name;
-                oldU.pasword = u.pasword;
+                oldU.password = u.password;
                 oldU.SetenceIds = u.SetenceIds;
             }
+            WriteUsersToJson("./JSON/users.json", List);
+        }
+
+        private static List<User> ReadUsersFromJson(string filePath)
+        {
+            var json = File.ReadAllText(filePath);
+            return JsonSerializer.Deserialize<List<User>>(json);
+        }
+        public static void WriteUsersToJson(string filePath, List<User> users)
+        {
+            var json = JsonSerializer.Serialize(users, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, json, Encoding.UTF8); // ודא שאתה משתמש בקידוד UTF-8
         }
     }
     public static class UserServiceHelper

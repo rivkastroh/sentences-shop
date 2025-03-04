@@ -1,0 +1,96 @@
+html {
+    direction: rtl;
+    background-color: rgb(245, 231, 238);
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* רווח בין הכפתורים */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* רווח מתחת לטבלה */
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: right; /* טקסט מימין למשמאל */
+}
+
+td {
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+#editForm {
+    display: none; /* לא שונה */
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 10px; /* רווח בין טפסים */
+}
+
+input[type="text"], input[type="hidden"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+
+
+/* #manegerUsers{
+    display: none;
+}
+html{
+    direction: rtl;
+    background-color: rgb(245, 231, 238);
+}
+#editForm{
+    display: none;
+} */

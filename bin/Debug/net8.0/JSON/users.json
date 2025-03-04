@@ -1,0 +1,56 @@
+﻿[
+  {
+    "Id": 327824348,
+    "Name": "\u05E8\u05D1\u05E7\u05D4",
+    "password": "12345678",
+    "SetenceIds": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "\u05E8\u05D7\u05DC",
+    "password": "87654321",
+    "SetenceIds": [
+      4,
+      3
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "\u05E9\u05E8\u05D4",
+    "password": "\u05D0\u05D1\u05D2\u05D3\u05D4\u05D5\u05D6\u05D7",
+    "SetenceIds": [
+      1,
+      5,
+      3
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "\u05DC\u05D0\u05D4",
+    "password": "\u05D7\u05D6\u05D5\u05D4\u05D3\u05D2\u05D1\u05D0",
+    "SetenceIds": [
+      1,
+      2,
+      6
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "\u05EA\u05DE\u05E8",
+    "password": "abcd1234",
+    "SetenceIds": [
+      9,
+      10
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "rivka",
+    "password": "5689",
+    "SetenceIds": []
+  }
+]

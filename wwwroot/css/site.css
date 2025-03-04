@@ -2,50 +2,88 @@ html {
     direction: rtl;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
 .login {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
+    border: 1px solid black; /* לא שונה */
+    padding: 5px; /* לא שונה */
+    text-align: center; /* לא שונה */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.login:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 #loginManeger {
-    display: none;
+    display: none; /* לא שונה */
 }
 
 #loginUser {
-    display: none;
+    display: none; /* לא שונה */
 }
 
+input[type='number'], input[type='text'] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
 
+input[type='number']:focus, input[type='text']:focus {
+    border-color: #66afe9;
+    outline: none;
+}
 
-
-
-
-
-
-
-input[type='submit'],
-button,
-[aria-label] {
+button, input[type='submit'] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* רווח בין הכפתורים */
 }
 
-#editForm {
-    display: none;
+button:hover, input[type='submit']:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
 }
 
 table {
-    font-family: Arial, sans-serif;
-    border: 1px solid;
-    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* לא שונה */
+    border: 1px solid; /* לא שונה */
+    border-collapse: collapse; /* לא שונה */
 }
 
 th {
-    background-color: #f8f8f8;
-    padding: 5px;
+    background-color: #f8f8f8; /* לא שונה */
+    padding: 5px; /* לא שונה */
 }
 
 td {
-    border: 1px solid;
-    padding: 5px;
+    border: 1px solid; /* לא שונה */
+    padding: 5px; /* לא שונה */
 }

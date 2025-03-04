@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users</title>
+    <link rel="stylesheet" href="./css/users.css">
+</head>
+<body>
+    <button id="manegerProd" onclick="manegerProd()">ניהול מוצרים</button>
+
+    <table border="1">
+        <tr>
+            <th>מזהה</th>
+            <th>שם</th>
+            <th>סיסמה</th>
+            <th>מזהי משפטים</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="users"></tbody>
+    </table>
+
+    <div id="editForm">
+        <h3>עריכה</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <!-- לבדוק מה זה hidden -->
+            <input type="text" id="edit-name">
+            <input type="text" id="edit-password">
+            <input type="text" id="edit-setenceIds">
+            <input type="submit" value="שמירה">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="number" id="add-id" placeholder="מזהה">
+        <input type="text" id="add-name" placeholder="שם">
+        <input type="password" id="add-password" placeholder="סיסמה">
+        <input type="submit" value="Add">
+    </form>
+
+
+    <script src="./js/users.js"></script>
+</body>
+</html>

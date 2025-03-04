@@ -23,7 +23,8 @@ public class ManegerController : ControllerBase
     [Route("[action]")]
     public ActionResult<String> Login([FromBody] passwordObj password)
     {
-        if ("123987" != password.password)
+        string s ="123987";
+        if (! s.Equals(password.password))
         {
             return Unauthorized();
         }

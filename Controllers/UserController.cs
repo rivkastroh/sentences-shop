@@ -31,7 +31,7 @@ public class Usercontroller : ControllerBase
     public ActionResult<String> Login([FromBody] User user)
     {
         User u = UserService.Get(user.Id);
-        if (u == null || u.pasword != user.pasword)
+        if (u == null || u.password != user.password)
         {
             return Unauthorized();
         }
@@ -75,7 +75,6 @@ public class Usercontroller : ControllerBase
 
 
     [HttpPost]
-    [Route("[action]")]
     [Authorize(Policy = "Admin")]
     public ActionResult Insert(User uN)
     {

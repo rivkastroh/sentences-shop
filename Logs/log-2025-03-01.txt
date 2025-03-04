@@ -310,3 +310,85 @@
 2025-03-01 20:01:53.549 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 15.578ms
 2025-03-01 20:01:53.551 +02:00 [Information] finish requst:GET
 2025-03-01 20:01:53.554 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 7388 "text/javascript" 31.6109ms
+2025-03-01 20:39:53.915 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-01 20:39:54.036 +02:00 [Information] Now listening on: "http://localhost:5036"
+2025-03-01 20:39:54.041 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-01 20:39:54.042 +02:00 [Information] Hosting environment: "Development"
+2025-03-01 20:39:54.043 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-01 20:39:56.599 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-03-01 20:39:56.704 +02:00 [Information] requst:GET
+2025-03-01 20:39:56.736 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-01 20:39:56.741 +02:00 [Information] finish requst:GET
+2025-03-01 20:39:56.746 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 7567 "text/javascript" 148.6438ms
+2025-03-01 20:40:02.099 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-03-01 20:40:02.109 +02:00 [Information] requst:GET
+2025-03-01 20:40:02.118 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-03-01 20:40:02.122 +02:00 [Information] finish requst:GET
+2025-03-01 20:40:02.125 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 26.0064ms
+2025-03-01 20:40:02.131 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-03-01 20:40:15.825 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-03-01 20:40:15.863 +02:00 [Information] requst:GET
+2025-03-01 20:40:15.865 +02:00 [Information] finish requst:GET
+2025-03-01 20:40:15.866 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 41.5823ms
+2025-03-01 20:40:15.871 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-03-01 20:42:29.334 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/""" - null null
+2025-03-01 20:42:29.342 +02:00 [Information] requst:GET
+2025-03-01 20:42:29.360 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-01 20:42:29.364 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:29.367 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/index.html""" - 200 1954 "text/html" 32.661ms
+2025-03-01 20:42:29.389 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - null null
+2025-03-01 20:42:29.394 +02:00 [Information] requst:GET
+2025-03-01 20:42:29.398 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-01 20:42:29.401 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:29.402 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/site.css""" - 200 552 "text/css" 12.8939ms
+2025-03-01 20:42:29.408 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - null null
+2025-03-01 20:42:29.412 +02:00 [Information] requst:GET
+2025-03-01 20:42:29.421 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-01 20:42:29.423 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:29.425 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/site.js""" - 200 7031 "text/javascript" 17.6685ms
+2025-03-01 20:42:29.449 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - null null
+2025-03-01 20:42:29.453 +02:00 [Information] requst:GET
+2025-03-01 20:42:29.455 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:29.457 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/favicon.ico""" - 404 0 null 7.7836ms
+2025-03-01 20:42:29.462 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5036""""/favicon.ico", Response status code: 404
+2025-03-01 20:42:39.347 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - "application/json" 72
+2025-03-01 20:42:39.351 +02:00 [Information] requst:POST
+2025-03-01 20:42:39.353 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-01 20:42:39.377 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-03-01 20:42:39.505 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2025-03-01 20:42:39.511 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 125.8056ms
+2025-03-01 20:42:39.512 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-01 20:42:39.514 +02:00 [Information] finish requst:POST
+2025-03-01 20:42:39.514 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5036""""/User/Login""" - 200 null "text/plain; charset=utf-8" 167.6171ms
+2025-03-01 20:42:44.900 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/products.html""" - null null
+2025-03-01 20:42:44.903 +02:00 [Information] requst:GET
+2025-03-01 20:42:44.940 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-01 20:42:44.942 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:44.947 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/products.html""" - 200 329 "text/html" 46.3793ms
+2025-03-01 20:42:44.960 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/products.js""" - null null
+2025-03-01 20:42:44.963 +02:00 [Information] requst:GET
+2025-03-01 20:42:44.967 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-01 20:42:44.969 +02:00 [Information] finish requst:GET
+2025-03-01 20:42:44.970 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/products.js""" - 200 690 "text/javascript" 9.7308ms
+2025-03-01 20:53:02.915 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/products.html""" - null null
+2025-03-01 20:53:02.919 +02:00 [Information] requst:GET
+2025-03-01 20:53:02.940 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-01 20:53:02.944 +02:00 [Information] finish requst:GET
+2025-03-01 20:53:02.946 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/products.html""" - 200 409 "text/html" 30.8152ms
+2025-03-01 20:53:02.962 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/products.css""" - null null
+2025-03-01 20:53:02.965 +02:00 [Information] requst:GET
+2025-03-01 20:53:02.967 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/products.js""" - null null
+2025-03-01 20:53:02.970 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-01 20:53:02.970 +02:00 [Information] requst:GET
+2025-03-01 20:53:02.972 +02:00 [Information] finish requst:GET
+2025-03-01 20:53:02.975 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/css/products.css""" - 200 37 "text/css" 12.232ms
+2025-03-01 20:53:02.978 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-01 20:53:02.980 +02:00 [Information] finish requst:GET
+2025-03-01 20:53:02.981 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/js/products.js""" - 200 1456 "text/javascript" 13.9963ms
+2025-03-01 20:53:06.075 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/Login""" - null null
+2025-03-01 20:53:06.080 +02:00 [Information] requst:GET
+2025-03-01 20:53:06.089 +02:00 [Information] Authorization failed. "These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (User|Admin)"
+2025-03-01 20:53:06.096 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2025-03-01 20:53:06.098 +02:00 [Information] finish requst:GET
+2025-03-01 20:53:06.098 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5036""""/User/Login""" - 401 0 null 23.1727ms
