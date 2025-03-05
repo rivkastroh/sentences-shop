@@ -52,5 +52,23 @@
     "Name": "rivka",
     "password": "5689",
     "SetenceIds": []
+  },
+  {
+    "Id": 9,
+    "Name": "\u05D2\u05D3",
+    "password": "159\u05D5\u05DF",
+    "SetenceIds": []
+  },
+  {
+    "Id": 1060406089,
+    "Name": "\u05DE\u05E8\u05D9\u05DD",
+    "password": "\u05E9\u05D3\u05D2356",
+    "SetenceIds": []
+  },
+  {
+    "Id": 12345678,
+    "Name": "\u05D1\u05D9\u05EA \u05D9\u05E2\u05E7\u05D1",
+    "password": "Aa123###",
+    "SetenceIds": []
   }
 ]

@@ -162,5 +162,8 @@ function getUserTypeFromToken(token) {
     const decodedPayload = JSON.parse(atob(payload)); // פענוח ה-payload
     return decodedPayload.type; // החזרת סוג המשתמש (מנהל או רגיל)
 }
-
+const logout = () => {
+    localStorage.removeItem('token');
+    window.location.href = window.location.origin;
+}
 start();

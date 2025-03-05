@@ -39,7 +39,8 @@ public class Usercontroller : ControllerBase
         var claims = new List<Claim>
         {
             new Claim("type", "User"),
-            new Claim("id",user.Id.ToString()),
+            new Claim("id",u.Id.ToString()),
+            new Claim("name",u.Name),
             new Claim("SetenceIds",jsonIds)
         };
         var token = tokenServices.GetToken(claims);

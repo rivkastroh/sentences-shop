@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using ListSentence.interfases;
+using ListSentence.Modols;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,17 +15,13 @@ public class ManegerController : ControllerBase
     {
         this.tokenServices = tokenServices;
     }
-    public struct passwordObj
-    {
-        public string password;
-    }
-    
+
     [HttpPost]
     [Route("[action]")]
-    public ActionResult<String> Login([FromBody] passwordObj password)
+    public ActionResult<String> Login([FromBody] PasswordObj password)
     {
-        string s ="123987";
-        if (! s.Equals(password.password))
+        string s = "123987";
+        if(! string.Equals(password.Password,s))
         {
             return Unauthorized();
         }

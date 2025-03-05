@@ -1,10 +1,9 @@
-/* html{
-    direction: rtl;
-    background-color: rgb(245, 231, 238);
+#manegerProd{
+    margin-right: 80%;
 }
-#editForm{
-    display: none;
-} */
+#logout{
+    margin-right: 80%;
+}
 
 
 html {
@@ -21,7 +20,7 @@ body {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #b219c3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,7 +32,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:  #d045df;
 }
 
 table {
@@ -76,7 +75,7 @@ input[type="text"], input[type="hidden"], input[type="number"], input[type="pass
 }
 
 input[type="submit"] {
-    background-color: #28a745;
+    background-color: #bf0369;
     color: white;
     border: none;
     border-radius: 5px;
@@ -87,5 +86,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #f11f91;
 }

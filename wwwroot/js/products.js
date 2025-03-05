@@ -14,14 +14,14 @@ function addItem() {
     };
 
     fetch(uri, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${token}`
-            },
-            body: JSON.stringify(item)
-        })
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify(item)
+    })
         .then(response => response.json())
         .then(() => {
             printSen(token);
@@ -32,11 +32,11 @@ function addItem() {
 }
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-            method: 'DELETE',
-            headers: {
-                'Authorization': `Bearer ${token}`
-            },
-        })
+        method: 'DELETE',
+        headers: {
+            'Authorization': `Bearer ${token}`
+        },
+    })
         .then(() => printSen(token))
         .catch(error => console.error('Unable to delete item.', error));
 }
@@ -78,12 +78,17 @@ function displayEditForm(id) {
 const start = () => {
     token = localStorage.getItem('token');
     if (!token) {
-        throw new Error("unotorize");
+        alert("unotorize");
     }
-    const typeUser = getUserTypeFromToken(token);
-    if (typeUser == "Admin")
-        document.getElementById("manegerUsers").style.display = "inline";
-    printSen(token);
+    else {
+        const typeUser = getUserTypeFromToken(token);
+        if (typeUser == "Admin")
+            document.getElementById("manegerUsers").style.display = "inline";
+        else {
+            document.getElementById("h1").textContent = `המשפטים של: ${getNameFromToken(token)}`;
+        }
+        printSen(token);
+    }
 }
 const printSen = async (token) => {
     await getItems(token).then((data) => {
@@ -130,6 +135,12 @@ function getUserTypeFromToken(token) {
     const decodedPayload = JSON.parse(atob(payload)); // פענוח ה-payload
     return decodedPayload.type; // החזרת סוג המשתמש (מנהל או רגיל)
 }
+function getNameFromToken(token) {
+    const payload = token.split('.')[1];
+    const decodedPayload = JSON.parse(decodeURIComponent(escape(atob(payload)))); // פענוח ה-payload
+    return decodedPayload.name;
+}
+
 // פונקציה להחזרת פריטים מהממשק
 function getItems(token) {
     return fetch(uri, {
@@ -153,5 +164,9 @@ function getItems(token) {
 const manegerUsers = () => {
     window.location.href = "users.html";
 }
+const logout = () => {
+    localStorage.removeItem('token');
+    window.location.href = window.location.origin;
+}
 
-start();
+start()
