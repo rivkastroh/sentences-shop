@@ -51,7 +51,8 @@
     "Id": 7,
     "Name": "rivka",
     "password": "5689",
-    "SetenceIds": []
+    "SetenceIds": [],
+    "Email":"mstrohbi@gmail.com"
   },
   {
     "Id": 9,

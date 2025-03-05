@@ -30,8 +30,11 @@ namespace ListSentence.Services
             WriteUsersToJson("./JSON/users.json", List);
         }
 
-        public User Get(int id)
+        public User Get(int id=-1,string email =null)
         {
+            if(id==-1){
+                return List.FirstOrDefault(u=> email.Equals(u.Email));
+            }
             return List.FirstOrDefault(u => id == u.Id);
         }
 
@@ -48,6 +51,7 @@ namespace ListSentence.Services
                 oldU.Name = u.Name;
                 oldU.password = u.password;
                 oldU.SetenceIds = u.SetenceIds;
+                oldU.Email=u.Email;
             }
             WriteUsersToJson("./JSON/users.json", List);
         }

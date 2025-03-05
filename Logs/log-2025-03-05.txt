@@ -1795,3 +1795,632 @@ System.InvalidOperationException: No route matches the supplied values.
 2025-03-05 20:00:17.551 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
 2025-03-05 20:00:17.553 +02:00 [Information] finish requst:GET
 2025-03-05 20:00:17.555 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/SentenceControler""" - 200 null "application/json; charset=utf-8" 39.1152ms
+2025-03-05 20:02:04.750 +02:00 [Information] Application is shutting down...
+2025-03-05 20:08:01.027 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 20:08:01.338 +02:00 [Information] Now listening on: "https://localhost:5001"
+2025-03-05 20:08:01.341 +02:00 [Information] Now listening on: "http://localhost:5000"
+2025-03-05 20:08:01.349 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 20:08:01.352 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 20:08:01.354 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-05 20:08:05.902 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 20:08:06.022 +02:00 [Information] requst:GET
+2025-03-05 20:08:06.039 +02:00 [Information] The file "/products.html" was not modified
+2025-03-05 20:08:06.044 +02:00 [Information] finish requst:GET
+2025-03-05 20:08:06.052 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 304 null "text/html" 152.4664ms
+2025-03-05 20:08:06.077 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 20:08:06.092 +02:00 [Information] requst:GET
+2025-03-05 20:08:06.100 +02:00 [Information] The file "/js/products.js" was not modified
+2025-03-05 20:08:06.106 +02:00 [Information] finish requst:GET
+2025-03-05 20:08:06.110 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 304 null "text/javascript" 32.456ms
+2025-03-05 20:08:06.136 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/SentenceControler""" - null null
+2025-03-05 20:08:06.251 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - null null
+2025-03-05 20:08:06.257 +02:00 [Information] requst:GET
+2025-03-05 20:08:06.265 +02:00 [Information] finish requst:GET
+2025-03-05 20:08:06.268 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - 404 0 null 17.2354ms
+2025-03-05 20:08:06.275 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/favicon.ico", Response status code: 404
+2025-03-05 20:08:06.352 +02:00 [Information] Successfully validated the token.
+2025-03-05 20:08:06.357 +02:00 [Information] requst:GET
+2025-03-05 20:08:06.367 +02:00 [Information] Executing endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-03-05 20:08:06.430 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"SentenceControler\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ListSentence.Modols.Sentence]] Get()" on controller "ListSentence.controllers.SentenceControler" ("proj1").
+2025-03-05 20:08:06.537 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ListSentence.Modols.Sentence, proj1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-05 20:08:06.577 +02:00 [Information] Executed action "ListSentence.controllers.SentenceControler.Get (proj1)" in 134.555ms
+2025-03-05 20:08:06.580 +02:00 [Information] Executed endpoint '"ListSentence.controllers.SentenceControler.Get (proj1)"'
+2025-03-05 20:08:06.583 +02:00 [Information] finish requst:GET
+2025-03-05 20:08:06.585 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/SentenceControler""" - 200 null "application/json; charset=utf-8" 449.0136ms
+2025-03-05 20:08:24.852 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger""" - null null
+2025-03-05 20:08:24.858 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger""" - 301 0 null 5.517ms
+2025-03-05 20:08:24.873 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/index.html""" - null null
+2025-03-05 20:08:24.975 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 101.6006ms
+2025-03-05 20:08:24.988 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui-bundle.js""" - null null
+2025-03-05 20:08:24.988 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui.css""" - null null
+2025-03-05 20:08:24.989 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui-standalone-preset.js""" - null null
+2025-03-05 20:08:25.038 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-03-05 20:08:25.047 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-03-05 20:08:25.053 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui.css""" - 200 143943 "text/css" 64.3492ms
+2025-03-05 20:08:25.054 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui-standalone-preset.js""" - 200 339486 "text/javascript" 65.1812ms
+2025-03-05 20:08:25.106 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-03-05 20:08:25.110 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/swagger-ui-bundle.js""" - 200 1096145 "text/javascript" 121.5165ms
+2025-03-05 20:08:25.448 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/v1/swagger.json""" - null null
+2025-03-05 20:08:25.489 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/favicon-32x32.png""" - null null
+2025-03-05 20:08:25.496 +02:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-03-05 20:08:25.505 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/favicon-32x32.png""" - 200 628 "image/png" 15.5958ms
+2025-03-05 20:08:25.704 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 255.8536ms
+2025-03-05 20:09:02.404 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - "application/json" 22
+2025-03-05 20:09:02.429 +02:00 [Information] requst:POST
+2025-03-05 20:09:02.435 +02:00 [Information] Executing endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 20:09:02.458 +02:00 [Information] Route matched with "{action = \"GoogleLogin\", controller = \"Google\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(GoogleLoginRequest)" on controller "YourNamespace.Controllers.GoogleController" ("proj1").
+2025-03-05 20:09:02.904 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-03-05 20:09:02.946 +02:00 [Information] Executed action "YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)" in 482.6329ms
+2025-03-05 20:09:02.951 +02:00 [Information] Executed endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 20:09:02.954 +02:00 [Information] finish requst:POST
+2025-03-05 20:09:02.956 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - 401 null "application/problem+json; charset=utf-8" 551.6774ms
+2025-03-05 20:37:50.146 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - "application/json" 91
+2025-03-05 20:37:50.152 +02:00 [Information] requst:POST
+2025-03-05 20:37:50.184 +02:00 [Information] Executing endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 20:37:50.187 +02:00 [Information] Route matched with "{action = \"GoogleLogin\", controller = \"Google\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(GoogleLoginRequest)" on controller "YourNamespace.Controllers.GoogleController" ("proj1").
+2025-03-05 20:37:50.199 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-03-05 20:37:50.202 +02:00 [Information] Executed action "YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)" in 12.3014ms
+2025-03-05 20:37:50.205 +02:00 [Information] Executed endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 20:37:50.207 +02:00 [Information] finish requst:POST
+2025-03-05 20:37:50.209 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - 401 null "application/problem+json; charset=utf-8" 63.5512ms
+2025-03-05 20:40:42.639 +02:00 [Information] Application is shutting down...
+2025-03-05 20:40:57.776 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 20:40:58.078 +02:00 [Information] Now listening on: "https://localhost:5001"
+2025-03-05 20:40:58.084 +02:00 [Information] Now listening on: "http://localhost:5000"
+2025-03-05 20:40:58.090 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 20:40:58.094 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 20:40:58.097 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-05 20:41:28.884 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 20:41:29.021 +02:00 [Information] requst:GET
+2025-03-05 20:41:29.115 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 20:41:29.122 +02:00 [Information] finish requst:GET
+2025-03-05 20:41:29.140 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 20:41:29.140 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 20:41:29.142 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 1277 "text/html" 259.7838ms
+2025-03-05 20:41:29.197 +02:00 [Information] requst:GET
+2025-03-05 20:41:29.203 +02:00 [Information] requst:GET
+2025-03-05 20:41:29.260 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 20:41:29.286 +02:00 [Information] finish requst:GET
+2025-03-05 20:41:29.291 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 151.1618ms
+2025-03-05 20:41:29.358 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 20:41:29.376 +02:00 [Information] finish requst:GET
+2025-03-05 20:41:29.381 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 4703 "text/javascript" 240.7889ms
+2025-03-05 20:47:41.047 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 20:47:41.056 +02:00 [Information] requst:GET
+2025-03-05 20:47:41.104 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 20:47:41.109 +02:00 [Information] finish requst:GET
+2025-03-05 20:47:41.112 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 64.9647ms
+2025-03-05 20:47:41.126 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 20:47:41.134 +02:00 [Information] requst:GET
+2025-03-05 20:47:41.194 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 20:47:41.197 +02:00 [Information] finish requst:GET
+2025-03-05 20:47:41.200 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 3736 "text/javascript" 72.9313ms
+2025-03-05 20:54:24.130 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 20:54:24.137 +02:00 [Information] requst:GET
+2025-03-05 20:54:24.142 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 20:54:24.143 +02:00 [Information] finish requst:GET
+2025-03-05 20:54:24.146 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 16.5479ms
+2025-03-05 20:54:24.177 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 20:54:24.194 +02:00 [Information] requst:GET
+2025-03-05 20:54:24.273 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 20:54:24.276 +02:00 [Information] finish requst:GET
+2025-03-05 20:54:24.278 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5504 "text/javascript" 101.2389ms
+2025-03-05 20:54:47.580 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 20:54:47.588 +02:00 [Information] requst:GET
+2025-03-05 20:54:47.593 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 20:54:47.598 +02:00 [Information] finish requst:GET
+2025-03-05 20:54:47.602 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 22.2276ms
+2025-03-05 20:54:47.657 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 20:54:47.662 +02:00 [Information] requst:GET
+2025-03-05 20:54:47.666 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 20:54:47.669 +02:00 [Information] finish requst:GET
+2025-03-05 20:54:47.671 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 14.565ms
+2025-03-05 21:03:11.545 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:03:11.550 +02:00 [Information] requst:GET
+2025-03-05 21:03:11.558 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:03:11.560 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:11.563 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 17.9253ms
+2025-03-05 21:03:11.593 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:11.598 +02:00 [Information] requst:GET
+2025-03-05 21:03:11.663 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:03:11.667 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:11.672 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 77.7594ms
+2025-03-05 21:03:11.691 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:03:11.694 +02:00 [Information] requst:GET
+2025-03-05 21:03:11.698 +02:00 [Information] The file "/products.html" was not modified
+2025-03-05 21:03:11.699 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:11.701 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 304 null "text/html" 10.2888ms
+2025-03-05 21:03:11.723 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:03:11.723 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:03:11.727 +02:00 [Information] requst:GET
+2025-03-05 21:03:11.730 +02:00 [Information] requst:GET
+2025-03-05 21:03:11.731 +02:00 [Information] The file "/css/products.css" was not modified
+2025-03-05 21:03:11.733 +02:00 [Information] The file "/js/products.js" was not modified
+2025-03-05 21:03:11.734 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:11.736 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:11.738 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 304 null "text/css" 15.6414ms
+2025-03-05 21:03:11.740 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 304 null "text/javascript" 17.7183ms
+2025-03-05 21:03:18.567 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:18.575 +02:00 [Information] requst:GET
+2025-03-05 21:03:18.589 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:03:18.590 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:18.592 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 25.3392ms
+2025-03-05 21:03:20.631 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:03:20.637 +02:00 [Information] requst:GET
+2025-03-05 21:03:20.643 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:03:20.645 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:20.647 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 16.1683ms
+2025-03-05 21:03:20.667 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:20.674 +02:00 [Information] requst:GET
+2025-03-05 21:03:20.679 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:03:20.680 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:20.682 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 14.2256ms
+2025-03-05 21:03:23.382 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:23.390 +02:00 [Information] requst:GET
+2025-03-05 21:03:23.394 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:03:23.397 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:23.399 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 16.7694ms
+2025-03-05 21:03:47.576 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:03:47.580 +02:00 [Information] requst:GET
+2025-03-05 21:03:47.587 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:03:47.596 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:47.601 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 24.6557ms
+2025-03-05 21:03:47.612 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:47.614 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:03:47.619 +02:00 [Information] requst:GET
+2025-03-05 21:03:47.622 +02:00 [Information] requst:GET
+2025-03-05 21:03:47.627 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:03:47.632 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:47.628 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:03:47.634 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 19.9754ms
+2025-03-05 21:03:47.637 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:47.644 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 31.7281ms
+2025-03-05 21:03:50.461 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:03:50.480 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.485 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:03:50.489 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.491 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 29.9715ms
+2025-03-05 21:03:50.520 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:03:50.521 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:03:50.534 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.537 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.541 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:03:50.542 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:03:50.551 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.554 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.574 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 53.2659ms
+2025-03-05 21:03:50.576 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 53.994ms
+2025-03-05 21:03:50.622 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:03:50.627 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.632 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:03:50.635 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.636 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 14.0166ms
+2025-03-05 21:03:50.659 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:03:50.659 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:03:50.663 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.665 +02:00 [Information] requst:GET
+2025-03-05 21:03:50.673 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:03:50.673 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:03:50.677 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.681 +02:00 [Information] finish requst:GET
+2025-03-05 21:03:50.683 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 23.5557ms
+2025-03-05 21:03:50.686 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 26.7759ms
+2025-03-05 21:04:04.724 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:04:04.729 +02:00 [Information] requst:GET
+2025-03-05 21:04:04.734 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:04:04.738 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:04.761 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 37.1394ms
+2025-03-05 21:04:04.773 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:04:04.773 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:04:04.785 +02:00 [Information] requst:GET
+2025-03-05 21:04:04.795 +02:00 [Information] requst:GET
+2025-03-05 21:04:04.811 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:04:04.818 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:04:04.825 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:04.827 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:04.831 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 57.5763ms
+2025-03-05 21:04:04.836 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 62.5988ms
+2025-03-05 21:04:48.573 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:04:48.579 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.587 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:04:48.604 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.607 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 34.4265ms
+2025-03-05 21:04:48.619 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:04:48.619 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:04:48.628 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.634 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.643 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:04:48.643 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:04:48.650 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.653 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.656 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 37.1929ms
+2025-03-05 21:04:48.658 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 38.6038ms
+2025-03-05 21:04:48.712 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:04:48.717 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.719 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:04:48.721 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.723 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 11.2791ms
+2025-03-05 21:04:48.743 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:04:48.743 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:04:48.749 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.755 +02:00 [Information] requst:GET
+2025-03-05 21:04:48.759 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:04:48.761 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:04:48.776 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.778 +02:00 [Information] finish requst:GET
+2025-03-05 21:04:48.783 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 38.9417ms
+2025-03-05 21:04:48.784 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 40.0494ms
+2025-03-05 21:05:02.389 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:05:02.393 +02:00 [Information] requst:GET
+2025-03-05 21:05:02.399 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:05:02.401 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:02.403 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 13.1645ms
+2025-03-05 21:05:02.432 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:05:02.432 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:05:02.452 +02:00 [Information] requst:GET
+2025-03-05 21:05:02.439 +02:00 [Information] requst:GET
+2025-03-05 21:05:02.460 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:05:02.469 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:05:02.480 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:02.487 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:02.490 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 58.0602ms
+2025-03-05 21:05:02.493 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 61.6382ms
+2025-03-05 21:05:34.849 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:05:34.854 +02:00 [Information] requst:GET
+2025-03-05 21:05:34.861 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:05:34.880 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:34.885 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 35.2531ms
+2025-03-05 21:05:34.900 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:05:34.900 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:05:34.914 +02:00 [Information] requst:GET
+2025-03-05 21:05:34.934 +02:00 [Information] requst:GET
+2025-03-05 21:05:34.937 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:05:34.940 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:34.944 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 44.3176ms
+2025-03-05 21:05:34.942 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:05:34.972 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:34.975 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 74.6038ms
+2025-03-05 21:05:34.997 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:05:35.001 +02:00 [Information] requst:GET
+2025-03-05 21:05:35.005 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:05:35.007 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:35.009 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 11.1881ms
+2025-03-05 21:05:35.026 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:05:35.026 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:05:35.031 +02:00 [Information] requst:GET
+2025-03-05 21:05:35.036 +02:00 [Information] requst:GET
+2025-03-05 21:05:35.041 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:05:35.049 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:05:35.051 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:35.054 +02:00 [Information] finish requst:GET
+2025-03-05 21:05:35.058 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 31.836ms
+2025-03-05 21:05:35.061 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 34.6602ms
+2025-03-05 21:07:09.269 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:07:09.278 +02:00 [Information] requst:GET
+2025-03-05 21:07:09.283 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:07:09.285 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:09.290 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 21.4153ms
+2025-03-05 21:07:09.362 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:07:09.362 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:07:09.366 +02:00 [Information] requst:GET
+2025-03-05 21:07:09.369 +02:00 [Information] requst:GET
+2025-03-05 21:07:09.373 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:07:09.376 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:07:09.379 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:09.380 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:09.381 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 18.9405ms
+2025-03-05 21:07:09.382 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5482 "text/javascript" 19.9542ms
+2025-03-05 21:07:09.429 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - null null
+2025-03-05 21:07:09.433 +02:00 [Information] requst:GET
+2025-03-05 21:07:09.445 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:09.447 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - 404 0 null 17.859ms
+2025-03-05 21:07:09.460 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/favicon.ico", Response status code: 404
+2025-03-05 21:07:44.084 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:07:44.091 +02:00 [Information] requst:GET
+2025-03-05 21:07:44.096 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:07:44.098 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:44.100 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 16.0416ms
+2025-03-05 21:07:44.191 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:07:44.194 +02:00 [Information] requst:GET
+2025-03-05 21:07:44.197 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:07:44.198 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:44.199 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 8.2995ms
+2025-03-05 21:07:44.234 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:07:44.240 +02:00 [Information] requst:GET
+2025-03-05 21:07:44.246 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:07:44.252 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:44.254 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 19.3131ms
+2025-03-05 21:07:44.281 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:07:44.283 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:07:44.284 +02:00 [Information] requst:GET
+2025-03-05 21:07:44.287 +02:00 [Information] requst:GET
+2025-03-05 21:07:44.290 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:07:44.291 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:07:44.292 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:44.295 +02:00 [Information] finish requst:GET
+2025-03-05 21:07:44.296 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 15.3003ms
+2025-03-05 21:07:44.297 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 14.0547ms
+2025-03-05 21:09:23.076 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:09:23.084 +02:00 [Information] requst:GET
+2025-03-05 21:09:23.090 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:09:23.094 +02:00 [Information] finish requst:GET
+2025-03-05 21:09:23.100 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 23.8363ms
+2025-03-05 21:09:23.126 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:09:23.133 +02:00 [Information] requst:GET
+2025-03-05 21:09:23.236 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:09:23.241 +02:00 [Information] finish requst:GET
+2025-03-05 21:09:23.242 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5533 "text/javascript" 116.1252ms
+2025-03-05 21:09:23.295 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - null null
+2025-03-05 21:09:23.308 +02:00 [Information] requst:GET
+2025-03-05 21:09:23.311 +02:00 [Information] finish requst:GET
+2025-03-05 21:09:23.312 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - 404 0 null 17.4936ms
+2025-03-05 21:09:23.324 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/favicon.ico", Response status code: 404
+2025-03-05 21:09:25.917 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:09:25.922 +02:00 [Information] requst:GET
+2025-03-05 21:09:25.925 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:09:25.929 +02:00 [Information] finish requst:GET
+2025-03-05 21:09:25.932 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 15.0087ms
+2025-03-05 21:10:04.506 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:10:04.510 +02:00 [Information] requst:GET
+2025-03-05 21:10:04.518 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:10:04.520 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:04.522 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 15.5443ms
+2025-03-05 21:10:04.582 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:10:04.582 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:10:04.633 +02:00 [Information] requst:GET
+2025-03-05 21:10:04.657 +02:00 [Information] requst:GET
+2025-03-05 21:10:04.668 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:10:04.672 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:10:04.689 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:04.674 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:04.705 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 122.375ms
+2025-03-05 21:10:04.705 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5533 "text/javascript" 122.1056ms
+2025-03-05 21:10:11.987 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:10:11.992 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.000 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:10:12.005 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.008 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 21.128ms
+2025-03-05 21:10:12.029 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:10:12.031 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:10:12.054 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.064 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.095 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:10:12.096 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:10:12.108 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.104 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.122 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 92.6496ms
+2025-03-05 21:10:12.119 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5533 "text/javascript" 87.6089ms
+2025-03-05 21:10:12.168 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:10:12.173 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.181 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:10:12.184 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.185 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 16.33ms
+2025-03-05 21:10:12.208 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:10:12.208 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:10:12.220 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.226 +02:00 [Information] requst:GET
+2025-03-05 21:10:12.235 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:10:12.240 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:10:12.242 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.270 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:12.274 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 65.2363ms
+2025-03-05 21:10:12.318 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 109.811ms
+2025-03-05 21:10:24.922 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:10:24.999 +02:00 [Information] requst:GET
+2025-03-05 21:10:25.012 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:10:25.047 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:25.055 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:10:25.056 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 134.033ms
+2025-03-05 21:10:25.056 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:10:25.070 +02:00 [Information] requst:GET
+2025-03-05 21:10:25.085 +02:00 [Information] requst:GET
+2025-03-05 21:10:25.089 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:10:25.092 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:10:25.095 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:25.103 +02:00 [Information] finish requst:GET
+2025-03-05 21:10:25.108 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 5533 "text/javascript" 52.4965ms
+2025-03-05 21:10:25.105 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 50.2804ms
+2025-03-05 21:29:09.320 +02:00 [Information] Application is shutting down...
+2025-03-05 21:34:06.055 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 21:34:06.366 +02:00 [Information] Now listening on: "https://localhost:5001"
+2025-03-05 21:34:06.370 +02:00 [Information] Now listening on: "http://localhost:5000"
+2025-03-05 21:34:06.376 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 21:34:06.380 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 21:34:06.382 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-05 21:34:14.457 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/index.html""" - null null
+2025-03-05 21:34:14.934 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 480.2576ms
+2025-03-05 21:34:15.417 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/v1/swagger.json""" - null null
+2025-03-05 21:34:15.619 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 201.6987ms
+2025-03-05 21:35:08.618 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:35:08.639 +02:00 [Information] requst:GET
+2025-03-05 21:35:08.681 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:35:08.684 +02:00 [Information] finish requst:GET
+2025-03-05 21:35:08.685 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 67.0862ms
+2025-03-05 21:35:08.714 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:35:08.718 +02:00 [Information] requst:GET
+2025-03-05 21:35:08.861 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:35:08.865 +02:00 [Information] finish requst:GET
+2025-03-05 21:35:08.867 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 6316 "text/javascript" 152.333ms
+2025-03-05 21:35:13.433 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:35:13.439 +02:00 [Information] requst:GET
+2025-03-05 21:35:13.445 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:35:13.449 +02:00 [Information] finish requst:GET
+2025-03-05 21:35:13.453 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 19.7959ms
+2025-03-05 21:35:13.464 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - "application/json" 236
+2025-03-05 21:35:13.481 +02:00 [Information] requst:POST
+2025-03-05 21:35:13.494 +02:00 [Information] Executing endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 21:35:13.528 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:35:13.535 +02:00 [Information] requst:GET
+2025-03-05 21:35:13.538 +02:00 [Information] The file "/products.html" was not modified
+2025-03-05 21:35:13.541 +02:00 [Information] finish requst:GET
+2025-03-05 21:35:13.543 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 304 null "text/html" 14.4742ms
+2025-03-05 21:35:13.577 +02:00 [Information] Route matched with "{action = \"GoogleLogin\", controller = \"Google\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(GoogleLoginRequest)" on controller "YourNamespace.Controllers.GoogleController" ("proj1").
+2025-03-05 21:35:13.580 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:35:13.585 +02:00 [Information] requst:GET
+2025-03-05 21:35:13.588 +02:00 [Information] The file "/js/products.js" was not modified
+2025-03-05 21:35:13.593 +02:00 [Information] finish requst:GET
+2025-03-05 21:35:13.596 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 304 null "text/javascript" 15.4294ms
+2025-03-05 21:35:13.662 +02:00 [Information] Executed action "YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)" in 70.5932ms
+2025-03-05 21:35:13.671 +02:00 [Information] Executed endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 21:35:13.679 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - 499 null null 214.0787ms
+2025-03-05 21:35:32.177 +02:00 [Information] Application is shutting down...
+2025-03-05 21:36:41.649 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 21:36:41.931 +02:00 [Information] Now listening on: "https://localhost:5001"
+2025-03-05 21:36:41.937 +02:00 [Information] Now listening on: "http://localhost:5000"
+2025-03-05 21:36:41.945 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 21:36:41.948 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 21:36:41.950 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-05 21:36:48.262 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:36:48.377 +02:00 [Information] requst:GET
+2025-03-05 21:36:48.393 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:36:48.398 +02:00 [Information] finish requst:GET
+2025-03-05 21:36:48.406 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 146.2018ms
+2025-03-05 21:36:52.066 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - "application/json" 236
+2025-03-05 21:36:52.090 +02:00 [Information] requst:POST
+2025-03-05 21:36:52.099 +02:00 [Information] Executing endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 21:36:52.166 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:36:52.181 +02:00 [Information] requst:GET
+2025-03-05 21:36:52.188 +02:00 [Information] The file "/css/products.css" was not modified
+2025-03-05 21:36:52.189 +02:00 [Information] Route matched with "{action = \"GoogleLogin\", controller = \"Google\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(GoogleLoginRequest)" on controller "YourNamespace.Controllers.GoogleController" ("proj1").
+2025-03-05 21:36:52.191 +02:00 [Information] finish requst:GET
+2025-03-05 21:36:52.195 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 304 null "text/css" 28.9879ms
+2025-03-05 21:36:52.311 +02:00 [Information] Executed action "YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)" in 113.5819ms
+2025-03-05 21:36:52.315 +02:00 [Information] Executed endpoint '"YourNamespace.Controllers.GoogleController.GoogleLogin (proj1)"'
+2025-03-05 21:36:52.318 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/api/auth/login""" - 499 null null 251.6072ms
+2025-03-05 21:37:21.303 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - null null
+2025-03-05 21:37:21.312 +02:00 [Information] requst:GET
+2025-03-05 21:37:21.343 +02:00 [Information] Sending file. Request path: '"/products.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\products.html"'
+2025-03-05 21:37:21.346 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:21.362 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/products.html""" - 200 1461 "text/html" 59.1378ms
+2025-03-05 21:37:21.363 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - null null
+2025-03-05 21:37:21.363 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - null null
+2025-03-05 21:37:21.375 +02:00 [Information] requst:GET
+2025-03-05 21:37:21.380 +02:00 [Information] requst:GET
+2025-03-05 21:37:21.389 +02:00 [Information] Sending file. Request path: '"/css/products.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\products.css"'
+2025-03-05 21:37:21.393 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:21.395 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/products.css""" - 200 1762 "text/css" 31.7869ms
+2025-03-05 21:37:21.417 +02:00 [Information] Sending file. Request path: '"/js/products.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\products.js"'
+2025-03-05 21:37:21.421 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:21.423 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/products.js""" - 200 5580 "text/javascript" 59.535ms
+2025-03-05 21:37:52.631 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:37:52.637 +02:00 [Information] requst:GET
+2025-03-05 21:37:52.657 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:37:52.661 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:52.663 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 200 992 "text/html" 32.1492ms
+2025-03-05 21:37:52.687 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:37:52.687 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - null null
+2025-03-05 21:37:52.693 +02:00 [Information] requst:GET
+2025-03-05 21:37:52.699 +02:00 [Information] requst:GET
+2025-03-05 21:37:52.710 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:37:52.718 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:52.712 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:37:52.723 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 200 6316 "text/javascript" 35.1923ms
+2025-03-05 21:37:52.727 +02:00 [Information] finish requst:GET
+2025-03-05 21:37:52.736 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""" - 200 1931 "text/css" 48.5815ms
+2025-03-05 21:38:05.954 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - "application/json" 73
+2025-03-05 21:38:05.959 +02:00 [Information] requst:POST
+2025-03-05 21:38:05.961 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:38:05.971 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-03-05 21:38:06.052 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 21:38:06.128 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 152.6674ms
+2025-03-05 21:38:06.133 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:38:06.135 +02:00 [Information] finish requst:POST
+2025-03-05 21:38:06.137 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - 400 null "application/problem+json; charset=utf-8" 183.2611ms
+2025-03-05 21:38:21.608 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+2025-03-05 21:38:21.612 +02:00 [Information] requst:GET
+2025-03-05 21:38:21.619 +02:00 [Information] The file "/index.html" was not modified
+2025-03-05 21:38:21.621 +02:00 [Information] finish requst:GET
+2025-03-05 21:38:21.622 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/index.html""" - 304 null "text/html" 13.9946ms
+2025-03-05 21:38:21.641 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:38:21.647 +02:00 [Information] requst:GET
+2025-03-05 21:38:21.651 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:38:21.655 +02:00 [Information] finish requst:GET
+2025-03-05 21:38:21.659 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 17.6832ms
+2025-03-05 21:38:38.040 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - "application/json" 73
+2025-03-05 21:38:38.044 +02:00 [Information] requst:POST
+2025-03-05 21:38:38.049 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:38:38.051 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-03-05 21:38:38.056 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 21:38:38.059 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 4.959ms
+2025-03-05 21:38:38.062 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:38:38.065 +02:00 [Information] finish requst:POST
+2025-03-05 21:38:38.066 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - 400 null "application/problem+json; charset=utf-8" 26.4999ms
+2025-03-05 21:39:19.161 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+2025-03-05 21:39:19.166 +02:00 [Information] requst:GET
+2025-03-05 21:39:19.174 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:39:19.177 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:19.178 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/index.html""" - 200 992 "text/html" 17.0857ms
+2025-03-05 21:39:19.222 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+2025-03-05 21:39:19.230 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+2025-03-05 21:39:19.236 +02:00 [Information] requst:GET
+2025-03-05 21:39:19.261 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:39:19.270 +02:00 [Information] requst:GET
+2025-03-05 21:39:19.295 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:19.302 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 200 6316 "text/javascript" 79.8042ms
+2025-03-05 21:39:19.304 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:39:19.337 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:19.340 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 200 1931 "text/css" 117.0539ms
+2025-03-05 21:39:19.417 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/favicon.ico""" - null null
+2025-03-05 21:39:19.441 +02:00 [Information] requst:GET
+2025-03-05 21:39:19.453 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:19.455 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/favicon.ico""" - 307 0 null 38.0708ms
+2025-03-05 21:39:19.488 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - null null
+2025-03-05 21:39:19.499 +02:00 [Information] requst:GET
+2025-03-05 21:39:19.502 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:19.504 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - 404 0 null 15.8991ms
+2025-03-05 21:39:19.519 +02:00 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/favicon.ico", Response status code: 404
+2025-03-05 21:39:33.216 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5000""""/User/Login""" - "application/json" 73
+2025-03-05 21:39:33.221 +02:00 [Information] requst:POST
+2025-03-05 21:39:33.222 +02:00 [Information] finish requst:POST
+2025-03-05 21:39:33.223 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5000""""/User/Login""" - 307 0 null 6.9761ms
+2025-03-05 21:39:33.248 +02:00 [Information] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:5001""""/User/Login""" - null null
+2025-03-05 21:39:33.252 +02:00 [Information] requst:OPTIONS
+2025-03-05 21:39:33.254 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-03-05 21:39:33.256 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-03-05 21:39:33.260 +02:00 [Information] finish requst:OPTIONS
+2025-03-05 21:39:33.263 +02:00 [Information] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:5001""""/User/Login""" - 405 0 null 15.26ms
+2025-03-05 21:39:46.990 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+2025-03-05 21:39:46.995 +02:00 [Information] requst:GET
+2025-03-05 21:39:47.000 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\index.html"'
+2025-03-05 21:39:47.003 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:47.004 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/index.html""" - 200 992 "text/html" 14.701ms
+2025-03-05 21:39:47.035 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+2025-03-05 21:39:47.035 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+2025-03-05 21:39:47.046 +02:00 [Information] requst:GET
+2025-03-05 21:39:47.050 +02:00 [Information] requst:GET
+2025-03-05 21:39:47.054 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\css\site.css"'
+2025-03-05 21:39:47.054 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\user2\Documents\תכנות\core\proj1\core-project\wwwroot\js\site.js"'
+2025-03-05 21:39:47.083 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:47.085 +02:00 [Information] finish requst:GET
+2025-03-05 21:39:47.087 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 200 1931 "text/css" 51.9467ms
+2025-03-05 21:39:47.089 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 200 6316 "text/javascript" 53.5291ms
+2025-03-05 21:41:51.319 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - "application/json" 73
+2025-03-05 21:41:51.322 +02:00 [Information] requst:POST
+2025-03-05 21:41:51.324 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:41:51.325 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-03-05 21:41:51.329 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 21:41:51.331 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 3.163ms
+2025-03-05 21:41:51.336 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:41:51.338 +02:00 [Information] finish requst:POST
+2025-03-05 21:41:51.339 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - 400 null "application/problem+json; charset=utf-8" 19.7901ms
+2025-03-05 21:42:08.373 +02:00 [Information] Application is shutting down...
+2025-03-05 21:42:50.099 +02:00 [Information] User profile is available. Using '"C:\Users\user2\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-05 21:42:50.400 +02:00 [Information] Now listening on: "https://localhost:5001"
+2025-03-05 21:42:50.403 +02:00 [Information] Now listening on: "http://localhost:5000"
+2025-03-05 21:42:50.407 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-05 21:42:50.410 +02:00 [Information] Hosting environment: "Development"
+2025-03-05 21:42:50.411 +02:00 [Information] Content root path: "C:\Users\user2\Documents\תכנות\core\proj1\core-project"
+2025-03-05 21:42:53.960 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - null null
+2025-03-05 21:42:54.071 +02:00 [Information] requst:GET
+2025-03-05 21:42:54.084 +02:00 [Information] The file "/js/site.js" was not modified
+2025-03-05 21:42:54.086 +02:00 [Information] finish requst:GET
+2025-03-05 21:42:54.091 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""" - 304 null "text/javascript" 134.0077ms
+2025-03-05 21:43:05.752 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - "application/json" 73
+2025-03-05 21:43:05.757 +02:00 [Information] requst:POST
+2025-03-05 21:43:05.764 +02:00 [Information] Executing endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:43:05.790 +02:00 [Information] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(ListSentence.Modols.User)" on controller "ListSentence.controllers.Usercontroller" ("proj1").
+2025-03-05 21:43:05.874 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2025-03-05 21:43:05.923 +02:00 [Information] Executed action "ListSentence.controllers.Usercontroller.Login (proj1)" in 127.5443ms
+2025-03-05 21:43:05.924 +02:00 [Information] Executed endpoint '"ListSentence.controllers.Usercontroller.Login (proj1)"'
+2025-03-05 21:43:05.925 +02:00 [Information] finish requst:POST
+2025-03-05 21:43:05.926 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/User/Login""" - 400 null "application/problem+json; charset=utf-8" 174.5151ms

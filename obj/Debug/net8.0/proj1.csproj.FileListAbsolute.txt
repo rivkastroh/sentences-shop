@@ -100,3 +100,10 @@ C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Mic
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\JSON\sentence.json
 C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\JSON\users.json
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\System.Management.dll
+C:\Users\user2\Documents\תכנות\core\proj1\core-project\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll

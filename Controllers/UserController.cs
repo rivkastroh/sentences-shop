@@ -30,7 +30,7 @@ public class Usercontroller : ControllerBase
     [Route("[action]")]
     public ActionResult<String> Login([FromBody] User user)
     {
-        User u = UserService.Get(user.Id);
+        User u = UserService.Get(user.Id,null);
         if (u == null || u.password != user.password)
         {
             return Unauthorized();
